@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5563:5432"
+  rinhabackenddb:
+    image: postgres
+    environment:
+      POSTGRES_DB: rinha_backend_db
+      POSTGRES_USER: rinha_backend_db
+      POSTGRES_PASSWORD: rinha_backend_db
