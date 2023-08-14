@@ -1,12 +1,12 @@
-version: '3'
+version: "3.8"
 services:
-  web:
-    build: .
+  db:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
     ports:
       - "5563:5432"
-  rinhabackenddb:
-    image: postgres
-    environment:
-      POSTGRES_DB: rinha_backend_db
-      POSTGRES_USER: rinha_backend_db
-      POSTGRES_PASSWORD: rinha_backend_db
+    volumes:
+      - ./build_db.sql:/docker-entrypoint-initdb.d/scripts.sql
