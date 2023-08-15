@@ -27,11 +27,11 @@ CREATE OR REPLACE FUNCTION generate_search_value(nome varchar, apelido varchar, 
     LANGUAGE SQL
 AS $$
 SELECT
-    LOWER(nome) || '-' || LOWER(apelido) ||
-    CASE
-        WHEN stack IS NULL THEN ''
-        ELSE '-' || array_to_text(stack, '-')
-        END
+                LOWER(nome) || '-' || LOWER(apelido) ||
+                CASE
+                    WHEN stack IS NULL THEN ''
+                    ELSE '-' || array_to_text(stack, '-')
+                    END
 $$;
 
 CREATE OR REPLACE FUNCTION update_search_column()

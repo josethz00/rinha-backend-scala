@@ -1,0 +1,2417 @@
+RUN	RinhaBackendSimulation	rinhabackendsimulation	1692642392528	DESCRICAO	3.9.5
+USER	Busca Válida de Pessoas	START	1692642394015
+USER	Criação E Talvez Consulta de Pessoas	START	1692642394013
+USER	Busca Inválida de Pessoas	START	1692642394056
+USER	Busca Válida de Pessoas	START	1692642394481
+USER	Busca Inválida de Pessoas	START	1692642394484
+USER	Criação E Talvez Consulta de Pessoas	START	1692642394488
+USER	Busca Válida de Pessoas	START	1692642394982
+USER	Busca Inválida de Pessoas	START	1692642394984
+USER	Criação E Talvez Consulta de Pessoas	START	1692642394990
+USER	Busca Válida de Pessoas	START	1692642395483
+USER	Busca Inválida de Pessoas	START	1692642395490
+USER	Criação E Talvez Consulta de Pessoas	START	1692642395491
+REQUEST		busca inválida	1692642394482	1692642395565	OK	 
+REQUEST		busca inválida	1692642394983	1692642395565	OK	 
+USER	Busca Inválida de Pessoas	END	1692642395587
+USER	Busca Inválida de Pessoas	END	1692642395587
+USER	Busca Válida de Pessoas	START	1692642395983
+USER	Criação E Talvez Consulta de Pessoas	START	1692642395991
+USER	Busca Inválida de Pessoas	START	1692642395991
+USER	Busca Válida de Pessoas	START	1692642396480
+USER	Criação E Talvez Consulta de Pessoas	START	1692642396480
+USER	Busca Inválida de Pessoas	START	1692642396481
+REQUEST		busca inválida	1692642394053	1692642396555	OK	 
+REQUEST		busca inválida	1692642395489	1692642396555	OK	 
+USER	Busca Inválida de Pessoas	END	1692642396556
+USER	Busca Inválida de Pessoas	END	1692642396557
+REQUEST		busca inválida	1692642395990	1692642396559	OK	 
+USER	Busca Inválida de Pessoas	END	1692642396560
+REQUEST		busca inválida	1692642396481	1692642396661	OK	 
+USER	Busca Inválida de Pessoas	END	1692642396662
+USER	Busca Válida de Pessoas	START	1692642396980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642396981
+USER	Busca Inválida de Pessoas	START	1692642396982
+REQUEST		busca inválida	1692642396981	1692642397053	OK	 
+USER	Busca Inválida de Pessoas	END	1692642397055
+USER	Busca Válida de Pessoas	START	1692642397480
+USER	Criação E Talvez Consulta de Pessoas	START	1692642397480
+USER	Busca Inválida de Pessoas	START	1692642397481
+REQUEST		busca inválida	1692642397480	1692642397555	OK	 
+USER	Busca Inválida de Pessoas	END	1692642397556
+USER	Busca Válida de Pessoas	START	1692642397980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642397980
+USER	Busca Inválida de Pessoas	START	1692642397982
+REQUEST		busca inválida	1692642397981	1692642398063	OK	 
+USER	Busca Inválida de Pessoas	END	1692642398064
+USER	Criação E Talvez Consulta de Pessoas	START	1692642398480
+USER	Busca Válida de Pessoas	START	1692642398480
+USER	Busca Inválida de Pessoas	START	1692642398481
+REQUEST		busca inválida	1692642398480	1692642398555	OK	 
+USER	Busca Inválida de Pessoas	END	1692642398556
+REQUEST		criação	1692642398481	1692642398951	OK	 
+USER	Criação E Talvez Consulta de Pessoas	START	1692642398980
+USER	Busca Válida de Pessoas	START	1692642398981
+USER	Busca Inválida de Pessoas	START	1692642398981
+USER	Criação E Talvez Consulta de Pessoas	END	1692642398987
+REQUEST		busca inválida	1692642398981	1692642399057	OK	 
+USER	Busca Inválida de Pessoas	END	1692642399059
+USER	Busca Válida de Pessoas	START	1692642399480
+USER	Criação E Talvez Consulta de Pessoas	START	1692642399480
+USER	Busca Inválida de Pessoas	START	1692642399481
+REQUEST		busca inválida	1692642399480	1692642399664	OK	 
+USER	Busca Inválida de Pessoas	END	1692642399666
+USER	Criação E Talvez Consulta de Pessoas	START	1692642399980
+USER	Busca Válida de Pessoas	START	1692642399980
+USER	Busca Inválida de Pessoas	START	1692642399981
+REQUEST		busca inválida	1692642399981	1692642400061	OK	 
+USER	Busca Inválida de Pessoas	END	1692642400062
+REQUEST		criação	1692642394053	1692642400462	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642400480
+USER	Criação E Talvez Consulta de Pessoas	START	1692642400480
+USER	Busca Inválida de Pessoas	START	1692642400481
+USER	Criação E Talvez Consulta de Pessoas	END	1692642400492
+REQUEST		busca válida	1692642394053	1692642400552	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642400554
+REQUEST		busca válida	1692642394983	1692642400559	KO	status.find.in([200, 209], 304), found 500
+REQUEST		busca válida	1692642394482	1692642400558	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642400560
+USER	Busca Válida de Pessoas	END	1692642400560
+REQUEST		busca inválida	1692642400480	1692642400571	OK	 
+USER	Busca Inválida de Pessoas	END	1692642400573
+REQUEST		busca válida	1692642395484	1692642400753	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642400755
+REQUEST		criação	1692642395492	1692642400766	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642400794
+USER	Busca Válida de Pessoas	START	1692642400980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642400980
+USER	Busca Inválida de Pessoas	START	1692642400981
+REQUEST		criação	1692642394991	1692642401154	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642401159
+REQUEST		criação	1692642394489	1692642401159	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642401166
+REQUEST		criação	1692642395992	1692642401254	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642401275
+REQUEST		busca válida	1692642395984	1692642401351	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642401353
+REQUEST		busca inválida	1692642400981	1692642401358	OK	 
+USER	Busca Inválida de Pessoas	END	1692642401360
+USER	Busca Válida de Pessoas	START	1692642401480
+USER	Criação E Talvez Consulta de Pessoas	START	1692642401480
+USER	Busca Inválida de Pessoas	START	1692642401481
+REQUEST		busca inválida	1692642401480	1692642401556	OK	 
+USER	Busca Inválida de Pessoas	END	1692642401558
+REQUEST		criação	1692642396481	1692642401959	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642401969
+USER	Busca Válida de Pessoas	START	1692642401980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642401980
+USER	Busca Inválida de Pessoas	START	1692642401981
+REQUEST		busca válida	1692642396481	1692642402150	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642402152
+REQUEST		busca válida	1692642396981	1692642402156	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642402157
+REQUEST		busca inválida	1692642401980	1692642402163	OK	 
+USER	Busca Inválida de Pessoas	END	1692642402165
+REQUEST		criação	1692642396981	1692642402352	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642402364
+USER	Busca Válida de Pessoas	START	1692642402480
+USER	Criação E Talvez Consulta de Pessoas	START	1692642402480
+USER	Busca Inválida de Pessoas	START	1692642402481
+REQUEST		busca válida	1692642397480	1692642402653	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642402655
+REQUEST		busca inválida	1692642402481	1692642402672	OK	 
+USER	Busca Inválida de Pessoas	END	1692642402673
+REQUEST		criação	1692642397481	1692642402755	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642402783
+USER	Busca Válida de Pessoas	START	1692642402980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642402981
+USER	Busca Inválida de Pessoas	START	1692642402981
+REQUEST		busca válida	1692642397981	1692642403061	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642403062
+REQUEST		busca inválida	1692642402981	1692642403064	OK	 
+USER	Busca Inválida de Pessoas	END	1692642403065
+REQUEST		busca válida	1692642399981	1692642403152	OK	 
+USER	Busca Válida de Pessoas	END	1692642403155
+REQUEST		criação	1692642397981	1692642403254	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642403264
+USER	Busca Válida de Pessoas	START	1692642403480
+USER	Criação E Talvez Consulta de Pessoas	START	1692642403480
+USER	Busca Inválida de Pessoas	START	1692642403481
+REQUEST		busca inválida	1692642403480	1692642403563	OK	 
+USER	Busca Inválida de Pessoas	END	1692642403564
+REQUEST		busca válida	1692642398481	1692642403754	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642403758
+REQUEST		busca válida	1692642401481	1692642403859	OK	 
+USER	Busca Válida de Pessoas	END	1692642403861
+REQUEST		criação	1692642398981	1692642403952	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642403979
+USER	Busca Válida de Pessoas	START	1692642403980
+USER	Busca Inválida de Pessoas	START	1692642403981
+USER	Criação E Talvez Consulta de Pessoas	START	1692642404085
+REQUEST		busca inválida	1692642403980	1692642404164	OK	 
+USER	Busca Inválida de Pessoas	END	1692642404164
+REQUEST		busca válida	1692642400981	1692642404250	OK	 
+USER	Busca Válida de Pessoas	END	1692642404252
+REQUEST		busca válida	1692642398981	1692642404264	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642404266
+REQUEST		criação	1692642399981	1692642404360	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642404376
+USER	Criação E Talvez Consulta de Pessoas	START	1692642404414
+USER	Busca Válida de Pessoas	START	1692642404479
+USER	Busca Inválida de Pessoas	START	1692642404481
+USER	Criação E Talvez Consulta de Pessoas	START	1692642404504
+REQUEST		busca inválida	1692642404480	1692642404552	OK	 
+USER	Busca Inválida de Pessoas	END	1692642404554
+USER	Criação E Talvez Consulta de Pessoas	START	1692642404636
+USER	Criação E Talvez Consulta de Pessoas	START	1692642404686
+USER	Criação E Talvez Consulta de Pessoas	START	1692642404744
+REQUEST		busca válida	1692642399481	1692642404962	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642404966
+USER	Busca Válida de Pessoas	START	1692642404980
+USER	Busca Inválida de Pessoas	START	1692642404981
+USER	Criação E Talvez Consulta de Pessoas	START	1692642404987
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405028
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405052
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405070
+REQUEST		criação	1692642399481	1692642405151	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642402481	1692642405159	OK	 
+USER	Busca Válida de Pessoas	END	1692642405160
+USER	Criação E Talvez Consulta de Pessoas	END	1692642405167
+REQUEST		criação	1692642404637	1692642405253	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642405267
+REQUEST		criação	1692642401981	1692642405360	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642405362
+REQUEST		busca inválida	1692642404980	1692642405367	OK	 
+USER	Busca Inválida de Pessoas	END	1692642405368
+USER	Busca Válida de Pessoas	START	1692642405480
+USER	Busca Inválida de Pessoas	START	1692642405481
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405484
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405557
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405604
+REQUEST		busca inválida	1692642405480	1692642405660	OK	 
+USER	Busca Inválida de Pessoas	END	1692642405661
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405844
+REQUEST		criação	1692642405845	1692642405856	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642405864
+REQUEST		busca válida	1692642400480	1692642405866	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642405867
+REQUEST		criação	1692642400481	1692642405870	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642405883
+USER	Criação E Talvez Consulta de Pessoas	END	1692642405891
+USER	Busca Válida de Pessoas	START	1692642405980
+USER	Busca Inválida de Pessoas	START	1692642405982
+REQUEST		busca inválida	1692642405981	1692642406065	OK	 
+USER	Busca Inválida de Pessoas	END	1692642406066
+REQUEST		criação	1692642400981	1692642406165	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		criação	1692642404415	1692642406169	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642406173
+USER	Criação E Talvez Consulta de Pessoas	END	1692642406189
+USER	Criação E Talvez Consulta de Pessoas	START	1692642406235
+USER	Criação E Talvez Consulta de Pessoas	START	1692642406460
+USER	Busca Válida de Pessoas	START	1692642406479
+USER	Busca Inválida de Pessoas	START	1692642406480
+REQUEST		busca inválida	1692642406480	1692642406566	OK	 
+USER	Busca Inválida de Pessoas	END	1692642406566
+REQUEST		busca válida	1692642403480	1692642406655	OK	 
+USER	Busca Válida de Pessoas	END	1692642406655
+REQUEST		criação	1692642401481	1692642406657	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642406661
+REQUEST		criação	1692642403481	1692642406683	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642406701
+REQUEST		criação	1692642404687	1692642406869	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642406897
+USER	Criação E Talvez Consulta de Pessoas	END	1692642406900
+USER	Busca Válida de Pessoas	START	1692642406979
+USER	Busca Inválida de Pessoas	START	1692642406981
+REQUEST		busca inválida	1692642406980	1692642407053	OK	 
+USER	Busca Inválida de Pessoas	END	1692642407053
+USER	Criação E Talvez Consulta de Pessoas	START	1692642407077
+REQUEST		criação	1692642405054	1692642407251	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642407254
+REQUEST		busca válida	1692642401981	1692642407257	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642407258
+USER	Criação E Talvez Consulta de Pessoas	START	1692642407353
+USER	Criação E Talvez Consulta de Pessoas	START	1692642407376
+REQUEST		criação	1692642404745	1692642407453	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642407479
+USER	Busca Inválida de Pessoas	START	1692642407481
+USER	Criação E Talvez Consulta de Pessoas	END	1692642407483
+REQUEST		busca válida	1692642403980	1692642407558	OK	 
+USER	Busca Válida de Pessoas	END	1692642407559
+USER	Criação E Talvez Consulta de Pessoas	START	1692642407598
+USER	Criação E Talvez Consulta de Pessoas	START	1692642407627
+USER	Criação E Talvez Consulta de Pessoas	START	1692642407632
+REQUEST		busca inválida	1692642407480	1692642407666	OK	 
+USER	Busca Inválida de Pessoas	END	1692642407667
+USER	Criação E Talvez Consulta de Pessoas	START	1692642407690
+REQUEST		busca válida	1692642405480	1692642407772	OK	 
+USER	Busca Válida de Pessoas	END	1692642407773
+REQUEST		criação	1692642405029	1692642407852	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		criação	1692642402481	1692642407860	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642407863
+REQUEST		busca válida	1692642404480	1692642407867	OK	 
+USER	Criação E Talvez Consulta de Pessoas	END	1692642407868
+USER	Busca Válida de Pessoas	END	1692642407868
+USER	Busca Válida de Pessoas	START	1692642407980
+USER	Busca Inválida de Pessoas	START	1692642407981
+REQUEST		busca inválida	1692642407980	1692642407989	OK	 
+USER	Busca Inválida de Pessoas	END	1692642407990
+USER	Criação E Talvez Consulta de Pessoas	START	1692642408034
+REQUEST		busca válida	1692642402981	1692642408155	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642408157
+REQUEST		criação	1692642402981	1692642408255	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642408264
+USER	Criação E Talvez Consulta de Pessoas	START	1692642408379
+USER	Busca Válida de Pessoas	START	1692642408479
+USER	Busca Inválida de Pessoas	START	1692642408480
+REQUEST		busca inválida	1692642408480	1692642408652	OK	 
+USER	Busca Inválida de Pessoas	END	1692642408654
+USER	Busca Válida de Pessoas	START	1692642408979
+USER	Busca Inválida de Pessoas	START	1692642408980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642408986
+REQUEST		busca inválida	1692642408980	1692642409158	OK	 
+USER	Busca Inválida de Pessoas	END	1692642409159
+USER	Criação E Talvez Consulta de Pessoas	START	1692642409260
+USER	Criação E Talvez Consulta de Pessoas	START	1692642409320
+REQUEST		criação	1692642404086	1692642409353	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642409357
+USER	Criação E Talvez Consulta de Pessoas	END	1692642409378
+USER	Busca Válida de Pessoas	START	1692642409480
+USER	Busca Inválida de Pessoas	START	1692642409481
+REQUEST		busca inválida	1692642409480	1692642409489	OK	 
+USER	Busca Inválida de Pessoas	END	1692642409490
+REQUEST		criação	1692642404505	1692642409572	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642409592
+USER	Criação E Talvez Consulta de Pessoas	START	1692642409672
+USER	Criação E Talvez Consulta de Pessoas	START	1692642409863
+USER	Criação E Talvez Consulta de Pessoas	START	1692642409927
+USER	Busca Válida de Pessoas	START	1692642409980
+USER	Busca Inválida de Pessoas	START	1692642409981
+USER	Criação E Talvez Consulta de Pessoas	START	1692642410024
+REQUEST		busca inválida	1692642409981	1692642410059	OK	 
+USER	Busca Inválida de Pessoas	END	1692642410060
+REQUEST		busca válida	1692642404980	1692642410154	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642410155
+REQUEST		criação	1692642409863	1692642410160	OK	 
+USER	Criação E Talvez Consulta de Pessoas	END	1692642410168
+USER	Criação E Talvez Consulta de Pessoas	START	1692642410322
+REQUEST		criação	1692642404987	1692642410453	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642410456
+USER	Criação E Talvez Consulta de Pessoas	START	1692642410469
+USER	Busca Válida de Pessoas	START	1692642410480
+USER	Busca Inválida de Pessoas	START	1692642410481
+USER	Criação E Talvez Consulta de Pessoas	START	1692642410544
+REQUEST		criação	1692642405070	1692642410557	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642410587
+REQUEST		busca inválida	1692642410480	1692642410650	OK	 
+USER	Busca Inválida de Pessoas	END	1692642410651
+REQUEST		criação	1692642405484	1692642410669	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642410683
+USER	Criação E Talvez Consulta de Pessoas	START	1692642410701
+REQUEST		criação	1692642405558	1692642410762	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642410784
+REQUEST		criação	1692642405605	1692642410869	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642410886
+REQUEST		criação	1692642405884	1692642410972	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642410979
+USER	Busca Inválida de Pessoas	START	1692642410980
+REQUEST		busca inválida	1692642410980	1692642410989	OK	 
+USER	Busca Inválida de Pessoas	END	1692642410989
+USER	Criação E Talvez Consulta de Pessoas	END	1692642410992
+USER	Criação E Talvez Consulta de Pessoas	START	1692642411028
+USER	Criação E Talvez Consulta de Pessoas	START	1692642411039
+REQUEST		busca válida	1692642405981	1692642411082	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642411083
+USER	Criação E Talvez Consulta de Pessoas	START	1692642411335
+REQUEST		criação	1692642406236	1692642411370	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642411382
+USER	Busca Válida de Pessoas	START	1692642411480
+USER	Busca Inválida de Pessoas	START	1692642411482
+REQUEST		criação	1692642406461	1692642411482	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642411491
+REQUEST		busca inválida	1692642411480	1692642411493	OK	 
+USER	Busca Inválida de Pessoas	END	1692642411493
+USER	Criação E Talvez Consulta de Pessoas	START	1692642411524
+REQUEST		busca válida	1692642406480	1692642411570	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642411571
+USER	Criação E Talvez Consulta de Pessoas	START	1692642411625
+USER	Criação E Talvez Consulta de Pessoas	START	1692642411838
+USER	Criação E Talvez Consulta de Pessoas	START	1692642411847
+REQUEST		criação	1692642406898	1692642411961	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642411980
+USER	Busca Inválida de Pessoas	START	1692642411981
+USER	Criação E Talvez Consulta de Pessoas	END	1692642411981
+REQUEST		busca inválida	1692642411980	1692642411985	OK	 
+USER	Busca Inválida de Pessoas	END	1692642411985
+REQUEST		busca válida	1692642406980	1692642412070	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642412071
+REQUEST		criação	1692642407078	1692642412101	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642412127
+USER	Criação E Talvez Consulta de Pessoas	START	1692642412414
+REQUEST		criação	1692642407354	1692642412469	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642412480
+USER	Busca Inválida de Pessoas	START	1692642412481
+REQUEST		busca inválida	1692642412480	1692642412484	OK	 
+USER	Busca Inválida de Pessoas	END	1692642412485
+USER	Criação E Talvez Consulta de Pessoas	END	1692642412490
+REQUEST		criação	1692642407377	1692642412561	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642412589
+REQUEST		busca válida	1692642407480	1692642412661	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642412663
+REQUEST		criação	1692642407599	1692642412679	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642412698
+USER	Criação E Talvez Consulta de Pessoas	START	1692642412750
+REQUEST		criação	1692642407691	1692642412762	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		criação	1692642407633	1692642412772	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642412789
+USER	Criação E Talvez Consulta de Pessoas	END	1692642412800
+REQUEST		criação	1692642407627	1692642412860	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642412884
+USER	Busca Válida de Pessoas	START	1692642412979
+USER	Busca Inválida de Pessoas	START	1692642412981
+REQUEST		busca inválida	1692642412980	1692642412985	OK	 
+USER	Busca Inválida de Pessoas	END	1692642412985
+USER	Criação E Talvez Consulta de Pessoas	START	1692642413078
+REQUEST		busca válida	1692642407981	1692642413160	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642413161
+REQUEST		criação	1692642408035	1692642413260	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642413282
+USER	Criação E Talvez Consulta de Pessoas	START	1692642413364
+REQUEST		criação	1692642408380	1692642413401	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642413422
+USER	Busca Válida de Pessoas	START	1692642413480
+USER	Busca Inválida de Pessoas	START	1692642413481
+REQUEST		busca inválida	1692642413480	1692642413484	OK	 
+USER	Busca Inválida de Pessoas	END	1692642413485
+REQUEST		busca válida	1692642408480	1692642413501	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642413502
+USER	Criação E Talvez Consulta de Pessoas	START	1692642413608
+USER	Criação E Talvez Consulta de Pessoas	START	1692642413685
+USER	Criação E Talvez Consulta de Pessoas	START	1692642413940
+USER	Busca Válida de Pessoas	START	1692642413980
+USER	Busca Inválida de Pessoas	START	1692642413981
+REQUEST		busca inválida	1692642413980	1692642413991	OK	 
+USER	Busca Inválida de Pessoas	END	1692642413992
+REQUEST		criação	1692642408986	1692642414011	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642414023
+REQUEST		busca válida	1692642408980	1692642414269	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642414270
+REQUEST		criação	1692642409261	1692642414380	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		criação	1692642409358	1692642414391	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642414401
+USER	Criação E Talvez Consulta de Pessoas	END	1692642414401
+USER	Criação E Talvez Consulta de Pessoas	START	1692642414447
+REQUEST		criação	1692642409320	1692642414470	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642414473
+USER	Busca Válida de Pessoas	START	1692642414480
+USER	Busca Inválida de Pessoas	START	1692642414481
+REQUEST		busca inválida	1692642414480	1692642414485	OK	 
+USER	Busca Inválida de Pessoas	END	1692642414486
+USER	Criação E Talvez Consulta de Pessoas	START	1692642414535
+USER	Criação E Talvez Consulta de Pessoas	START	1692642414557
+REQUEST		busca válida	1692642409481	1692642414679	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642414680
+REQUEST		criação	1692642409672	1692642414691	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642414693
+USER	Criação E Talvez Consulta de Pessoas	START	1692642414722
+USER	Criação E Talvez Consulta de Pessoas	START	1692642414841
+USER	Criação E Talvez Consulta de Pessoas	START	1692642414851
+USER	Criação E Talvez Consulta de Pessoas	START	1692642414902
+REQUEST		criação	1692642409928	1692642414952	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642414970
+USER	Busca Válida de Pessoas	START	1692642414980
+USER	Busca Inválida de Pessoas	START	1692642414981
+REQUEST		busca inválida	1692642414981	1692642414986	OK	 
+USER	Busca Inválida de Pessoas	END	1692642414987
+REQUEST		busca válida	1692642409980	1692642415002	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642415003
+REQUEST		criação	1692642410025	1692642415180	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642415207
+REQUEST		criação	1692642410323	1692642415460	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642415479
+USER	Busca Inválida de Pessoas	START	1692642415481
+USER	Criação E Talvez Consulta de Pessoas	END	1692642415482
+REQUEST		busca inválida	1692642415480	1692642415485	OK	 
+USER	Busca Inválida de Pessoas	END	1692642415486
+REQUEST		criação	1692642410470	1692642415492	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642415520
+REQUEST		busca válida	1692642410480	1692642415570	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642415571
+REQUEST		criação	1692642410545	1692642415572	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642415588
+USER	Criação E Talvez Consulta de Pessoas	START	1692642415682
+REQUEST		criação	1692642410702	1692642415719	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642415735
+USER	Criação E Talvez Consulta de Pessoas	START	1692642415751
+USER	Criação E Talvez Consulta de Pessoas	START	1692642415980
+USER	Busca Válida de Pessoas	START	1692642415980
+USER	Busca Inválida de Pessoas	START	1692642415981
+REQUEST		busca inválida	1692642415980	1692642415984	OK	 
+USER	Busca Inválida de Pessoas	END	1692642415985
+REQUEST		criação	1692642411029	1692642416052	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642416070
+REQUEST		busca válida	1692642410980	1692642416079	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642411040	1692642416079	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642416080
+USER	Criação E Talvez Consulta de Pessoas	END	1692642416099
+USER	Criação E Talvez Consulta de Pessoas	START	1692642416185
+USER	Criação E Talvez Consulta de Pessoas	START	1692642416326
+USER	Criação E Talvez Consulta de Pessoas	START	1692642416350
+REQUEST		criação	1692642411335	1692642416361	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642416372
+USER	Busca Válida de Pessoas	START	1692642416480
+USER	Busca Inválida de Pessoas	START	1692642416480
+REQUEST		busca inválida	1692642416480	1692642416483	OK	 
+USER	Busca Inválida de Pessoas	END	1692642416484
+REQUEST		busca válida	1692642411480	1692642416510	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642416511
+REQUEST		criação	1692642411524	1692642416549	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642416570
+REQUEST		criação	1692642411625	1692642416650	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642416666
+REQUEST		criação	1692642411838	1692642416861	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642416864
+REQUEST		criação	1692642411847	1692642416871	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642416877
+USER	Criação E Talvez Consulta de Pessoas	START	1692642416922
+USER	Criação E Talvez Consulta de Pessoas	START	1692642416969
+USER	Criação E Talvez Consulta de Pessoas	START	1692642416976
+USER	Busca Inválida de Pessoas	START	1692642416980
+USER	Busca Válida de Pessoas	START	1692642416980
+REQUEST		busca inválida	1692642416979	1692642416982	OK	 
+USER	Busca Inválida de Pessoas	END	1692642416983
+REQUEST		busca válida	1692642411981	1692642417001	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642417002
+USER	Criação E Talvez Consulta de Pessoas	START	1692642417035
+USER	Criação E Talvez Consulta de Pessoas	START	1692642417175
+USER	Criação E Talvez Consulta de Pessoas	START	1692642417234
+USER	Criação E Talvez Consulta de Pessoas	START	1692642417359
+REQUEST		criação	1692642412415	1692642417439	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642417461
+USER	Criação E Talvez Consulta de Pessoas	START	1692642417466
+USER	Busca Válida de Pessoas	START	1692642417479
+USER	Busca Inválida de Pessoas	START	1692642417480
+REQUEST		busca inválida	1692642417480	1692642417484	OK	 
+USER	Busca Inválida de Pessoas	END	1692642417484
+REQUEST		busca válida	1692642412480	1692642417499	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642417500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642417538
+REQUEST		criação	1692642412750	1692642417772	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642417790
+USER	Busca Válida de Pessoas	START	1692642417979
+USER	Busca Inválida de Pessoas	START	1692642417981
+REQUEST		busca inválida	1692642417980	1692642417985	OK	 
+USER	Busca Inválida de Pessoas	END	1692642417986
+USER	Criação E Talvez Consulta de Pessoas	START	1692642417990
+REQUEST		busca válida	1692642412980	1692642418000	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642418001
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418057
+REQUEST		criação	1692642413079	1692642418099	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642418126
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418126
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418281
+REQUEST		criação	1692642413365	1692642418392	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642418416
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418426
+USER	Busca Válida de Pessoas	START	1692642418480
+USER	Busca Inválida de Pessoas	START	1692642418481
+REQUEST		busca válida	1692642413480	1692642418500	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642418501
+REQUEST		busca inválida	1692642418480	1692642418510	OK	 
+USER	Busca Inválida de Pessoas	END	1692642418510
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418589
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418627
+REQUEST		criação	1692642413608	1692642418629	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642418637
+REQUEST		criação	1692642413686	1692642418711	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642418721
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418916
+REQUEST		criação	1692642413941	1692642418961	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642418969
+USER	Busca Válida de Pessoas	START	1692642418980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642418980
+USER	Busca Inválida de Pessoas	START	1692642418981
+REQUEST		busca inválida	1692642418980	1692642418991	OK	 
+USER	Busca Inválida de Pessoas	END	1692642418993
+REQUEST		busca válida	1692642413981	1692642418999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642419000
+USER	Criação E Talvez Consulta de Pessoas	START	1692642419145
+USER	Busca Válida de Pessoas	START	1692642419146
+USER	Busca Inválida de Pessoas	START	1692642419146
+REQUEST		busca inválida	1692642419145	1692642419149	OK	 
+USER	Busca Inválida de Pessoas	END	1692642419150
+USER	Criação E Talvez Consulta de Pessoas	START	1692642419312
+USER	Busca Válida de Pessoas	START	1692642419313
+USER	Busca Inválida de Pessoas	START	1692642419313
+REQUEST		busca inválida	1692642419313	1692642419317	OK	 
+USER	Busca Inválida de Pessoas	END	1692642419317
+REQUEST		criação	1692642414448	1692642419470	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642419480
+USER	Busca Válida de Pessoas	START	1692642419480
+USER	Busca Inválida de Pessoas	START	1692642419480
+REQUEST		busca inválida	1692642419480	1692642419484	OK	 
+USER	Busca Inválida de Pessoas	END	1692642419485
+USER	Criação E Talvez Consulta de Pessoas	END	1692642419486
+REQUEST		busca válida	1692642414481	1692642419502	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642419503
+REQUEST		criação	1692642414535	1692642419560	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642419582
+REQUEST		criação	1692642414558	1692642419581	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642419587
+USER	Criação E Talvez Consulta de Pessoas	START	1692642419645
+USER	Busca Válida de Pessoas	START	1692642419646
+USER	Busca Inválida de Pessoas	START	1692642419646
+REQUEST		busca inválida	1692642419646	1692642419651	OK	 
+USER	Busca Inválida de Pessoas	END	1692642419652
+REQUEST		criação	1692642414722	1692642419741	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642419767
+USER	Criação E Talvez Consulta de Pessoas	START	1692642419813
+USER	Busca Válida de Pessoas	START	1692642419813
+USER	Busca Inválida de Pessoas	START	1692642419813
+REQUEST		busca inválida	1692642419812	1692642419817	OK	 
+USER	Busca Inválida de Pessoas	END	1692642419818
+REQUEST		criação	1692642414842	1692642419859	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		criação	1692642414851	1692642419869	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642419869
+USER	Criação E Talvez Consulta de Pessoas	END	1692642419898
+REQUEST		criação	1692642414903	1692642419920	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642419925
+USER	Criação E Talvez Consulta de Pessoas	START	1692642419980
+USER	Busca Inválida de Pessoas	START	1692642419980
+USER	Busca Válida de Pessoas	START	1692642419981
+REQUEST		busca inválida	1692642419980	1692642419984	OK	 
+USER	Busca Inválida de Pessoas	END	1692642419985
+REQUEST		busca válida	1692642414980	1692642419999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642420000
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420091
+USER	Busca Válida de Pessoas	START	1692642420145
+USER	Busca Inválida de Pessoas	START	1692642420146
+REQUEST		busca inválida	1692642420146	1692642420151	OK	 
+USER	Busca Inválida de Pessoas	END	1692642420152
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420202
+USER	Busca Válida de Pessoas	START	1692642420312
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420313
+USER	Busca Inválida de Pessoas	START	1692642420313
+REQUEST		busca inválida	1692642420313	1692642420317	OK	 
+USER	Busca Inválida de Pessoas	END	1692642420317
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420424
+USER	Busca Válida de Pessoas	START	1692642420480
+USER	Busca Inválida de Pessoas	START	1692642420480
+REQUEST		busca inválida	1692642420480	1692642420483	OK	 
+USER	Busca Inválida de Pessoas	END	1692642420484
+REQUEST		busca válida	1692642415480	1692642420501	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642420502
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420535
+USER	Busca Válida de Pessoas	START	1692642420646
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420646
+USER	Busca Inválida de Pessoas	START	1692642420647
+REQUEST		busca inválida	1692642420646	1692642420651	OK	 
+USER	Busca Inválida de Pessoas	END	1692642420652
+REQUEST		criação	1692642415682	1692642420702	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642420727
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420757
+REQUEST		criação	1692642415751	1692642420769	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642420798
+USER	Busca Válida de Pessoas	START	1692642420813
+USER	Busca Inválida de Pessoas	START	1692642420814
+REQUEST		busca inválida	1692642420813	1692642420817	OK	 
+USER	Busca Inválida de Pessoas	END	1692642420817
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420868
+USER	Busca Válida de Pessoas	START	1692642420980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642420980
+USER	Busca Inválida de Pessoas	START	1692642420981
+REQUEST		busca inválida	1692642420980	1692642420984	OK	 
+USER	Busca Inválida de Pessoas	END	1692642420985
+REQUEST		busca válida	1692642415980	1692642420998	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642420999
+REQUEST		criação	1692642415980	1692642421000	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642421017
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421079
+USER	Busca Válida de Pessoas	START	1692642421121
+USER	Busca Inválida de Pessoas	START	1692642421146
+REQUEST		busca inválida	1692642421146	1692642421149	OK	 
+USER	Busca Inválida de Pessoas	END	1692642421150
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421180
+REQUEST		criação	1692642416186	1692642421210	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642421214
+USER	Busca Válida de Pessoas	START	1692642421264
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421280
+USER	Busca Inválida de Pessoas	START	1692642421313
+REQUEST		busca inválida	1692642421313	1692642421317	OK	 
+USER	Busca Inválida de Pessoas	END	1692642421318
+REQUEST		criação	1692642416327	1692642421350	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642421353
+REQUEST		criação	1692642416351	1692642421371	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421380
+USER	Criação E Talvez Consulta de Pessoas	END	1692642421387
+USER	Busca Válida de Pessoas	START	1692642421407
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421480
+USER	Busca Inválida de Pessoas	START	1692642421480
+REQUEST		busca inválida	1692642421480	1692642421484	OK	 
+USER	Busca Inválida de Pessoas	END	1692642421485
+REQUEST		busca válida	1692642416481	1692642421499	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642421500
+USER	Busca Válida de Pessoas	START	1692642421550
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421580
+USER	Busca Inválida de Pessoas	START	1692642421646
+REQUEST		busca inválida	1692642421646	1692642421650	OK	 
+USER	Busca Inválida de Pessoas	END	1692642421650
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421680
+USER	Busca Válida de Pessoas	START	1692642421693
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421780
+USER	Busca Inválida de Pessoas	START	1692642421814
+REQUEST		busca inválida	1692642421813	1692642421819	OK	 
+USER	Busca Inválida de Pessoas	END	1692642421820
+USER	Busca Válida de Pessoas	START	1692642421837
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421880
+REQUEST		criação	1692642416922	1692642421941	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642421969
+USER	Busca Válida de Pessoas	START	1692642421980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642421980
+USER	Busca Inválida de Pessoas	START	1692642421980
+REQUEST		busca inválida	1692642421980	1692642421984	OK	 
+USER	Busca Inválida de Pessoas	END	1692642421984
+REQUEST		criação	1692642416970	1692642421989	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642416980	1692642421999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642421999
+REQUEST		criação	1692642416977	1692642422001	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422008
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422032
+REQUEST		criação	1692642417036	1692642422051	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422062
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422080
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422145
+USER	Busca Válida de Pessoas	START	1692642422145
+USER	Busca Inválida de Pessoas	START	1692642422146
+REQUEST		busca inválida	1692642422146	1692642422149	OK	 
+USER	Busca Inválida de Pessoas	END	1692642422150
+REQUEST		criação	1692642417176	1692642422199	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422205
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422229
+REQUEST		criação	1692642417235	1692642422262	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422277
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422312
+USER	Busca Válida de Pessoas	START	1692642422312
+USER	Busca Inválida de Pessoas	START	1692642422314
+REQUEST		busca inválida	1692642422313	1692642422319	OK	 
+USER	Busca Inválida de Pessoas	END	1692642422320
+REQUEST		criação	1692642417359	1692642422381	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422385
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422395
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422480
+USER	Busca Válida de Pessoas	START	1692642422480
+USER	Busca Inválida de Pessoas	START	1692642422481
+REQUEST		criação	1692642417466	1692642422483	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642422480	1692642422486	OK	 
+USER	Busca Inválida de Pessoas	END	1692642422487
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422494
+REQUEST		busca válida	1692642417480	1692642422499	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642422499
+REQUEST		criação	1692642417539	1692642422559	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422563
+USER	Criação E Talvez Consulta de Pessoas	END	1692642422570
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422645
+USER	Busca Válida de Pessoas	START	1692642422646
+USER	Busca Inválida de Pessoas	START	1692642422646
+REQUEST		busca inválida	1692642422646	1692642422654	OK	 
+USER	Busca Inválida de Pessoas	END	1692642422654
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422729
+USER	Busca Válida de Pessoas	START	1692642422813
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422813
+USER	Busca Inválida de Pessoas	START	1692642422814
+REQUEST		busca inválida	1692642422813	1692642422817	OK	 
+USER	Busca Inválida de Pessoas	END	1692642422817
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422896
+USER	Busca Válida de Pessoas	START	1692642422980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642422980
+USER	Busca Inválida de Pessoas	START	1692642422981
+REQUEST		busca inválida	1692642422981	1692642422986	OK	 
+USER	Busca Inválida de Pessoas	END	1692642422986
+REQUEST		busca válida	1692642417980	1692642423001	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642423002
+REQUEST		criação	1692642417991	1692642423011	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423016
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423056
+REQUEST		criação	1692642418058	1692642423080	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423092
+USER	Busca Válida de Pessoas	START	1692642423104
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423133
+USER	Busca Inválida de Pessoas	START	1692642423146
+REQUEST		criação	1692642418127	1692642423149	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642423146	1692642423150	OK	 
+USER	Busca Inválida de Pessoas	END	1692642423151
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423175
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423210
+USER	Busca Válida de Pessoas	START	1692642423229
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423287
+REQUEST		criação	1692642418282	1692642423301	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642423313
+REQUEST		busca inválida	1692642423313	1692642423317	OK	 
+USER	Busca Inválida de Pessoas	END	1692642423318
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423320
+USER	Busca Válida de Pessoas	START	1692642423354
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423364
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423441
+REQUEST		criação	1692642418427	1692642423450	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423465
+USER	Busca Válida de Pessoas	START	1692642423479
+USER	Busca Inválida de Pessoas	START	1692642423481
+REQUEST		busca inválida	1692642423480	1692642423483	OK	 
+USER	Busca Inválida de Pessoas	END	1692642423484
+REQUEST		busca válida	1692642418480	1692642423501	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642423502
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423518
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423595
+USER	Busca Válida de Pessoas	START	1692642423604
+REQUEST		criação	1692642418590	1692642423609	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423622
+USER	Busca Inválida de Pessoas	START	1692642423647
+REQUEST		criação	1692642418628	1692642423649	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642423646	1692642423651	OK	 
+USER	Busca Inválida de Pessoas	END	1692642423651
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423672
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423675
+USER	Busca Válida de Pessoas	START	1692642423729
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423749
+USER	Busca Inválida de Pessoas	START	1692642423814
+REQUEST		busca inválida	1692642423813	1692642423817	OK	 
+USER	Busca Inválida de Pessoas	END	1692642423817
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423827
+USER	Busca Válida de Pessoas	START	1692642423855
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423903
+REQUEST		criação	1692642418916	1692642423941	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642423960
+USER	Busca Válida de Pessoas	START	1692642423979
+USER	Busca Inválida de Pessoas	START	1692642423981
+USER	Criação E Talvez Consulta de Pessoas	START	1692642423981
+REQUEST		busca inválida	1692642423980	1692642424005	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424006
+REQUEST		busca válida	1692642418981	1692642424009	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642418981	1692642424009	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642424010
+USER	Criação E Talvez Consulta de Pessoas	END	1692642424018
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424045
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424113
+USER	Busca Válida de Pessoas	START	1692642424121
+USER	Busca Inválida de Pessoas	START	1692642424122
+REQUEST		busca inválida	1692642424121	1692642424126	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424127
+REQUEST		criação	1692642419146	1692642424161	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642424166
+REQUEST		busca válida	1692642419146	1692642424169	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642424170
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424180
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424246
+USER	Busca Válida de Pessoas	START	1692642424264
+USER	Busca Inválida de Pessoas	START	1692642424265
+REQUEST		busca inválida	1692642424265	1692642424269	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424270
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424313
+REQUEST		busca válida	1692642419313	1692642424329	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642419313	1692642424329	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642424330
+USER	Criação E Talvez Consulta de Pessoas	END	1692642424341
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424380
+USER	Busca Válida de Pessoas	START	1692642424407
+USER	Busca Inválida de Pessoas	START	1692642424408
+REQUEST		busca inválida	1692642424408	1692642424411	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424412
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424446
+REQUEST		busca válida	1692642419480	1692642424501	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642419480	1692642424501	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642424502
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424513
+USER	Criação E Talvez Consulta de Pessoas	END	1692642424531
+USER	Busca Válida de Pessoas	START	1692642424550
+USER	Busca Inválida de Pessoas	START	1692642424551
+REQUEST		busca inválida	1692642424550	1692642424554	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424554
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424580
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424646
+REQUEST		busca válida	1692642419647	1692642424671	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642419646	1692642424671	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642424672
+USER	Criação E Talvez Consulta de Pessoas	END	1692642424677
+USER	Busca Válida de Pessoas	START	1692642424693
+USER	Busca Inválida de Pessoas	START	1692642424695
+REQUEST		busca inválida	1692642424694	1692642424698	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424699
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424713
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424780
+REQUEST		busca válida	1692642419813	1692642424830	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642419813	1692642424830	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642424830
+USER	Criação E Talvez Consulta de Pessoas	END	1692642424834
+USER	Busca Válida de Pessoas	START	1692642424836
+USER	Busca Inválida de Pessoas	START	1692642424837
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424846
+REQUEST		busca inválida	1692642424837	1692642424846	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424847
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424914
+USER	Busca Válida de Pessoas	START	1692642424980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642424980
+USER	Busca Inválida de Pessoas	START	1692642424980
+REQUEST		busca inválida	1692642424980	1692642424984	OK	 
+USER	Busca Inválida de Pessoas	END	1692642424984
+REQUEST		busca válida	1692642419981	1692642424999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642425000
+REQUEST		criação	1692642419981	1692642425002	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425020
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425037
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425096
+REQUEST		criação	1692642420091	1692642425111	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425121
+USER	Busca Válida de Pessoas	START	1692642425121
+USER	Busca Inválida de Pessoas	START	1692642425146
+REQUEST		busca inválida	1692642425146	1692642425150	OK	 
+USER	Busca Inválida de Pessoas	END	1692642425150
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425155
+REQUEST		busca válida	1692642420146	1692642425171	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642425172
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425214
+REQUEST		criação	1692642420203	1692642425221	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425225
+USER	Busca Válida de Pessoas	START	1692642425264
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425273
+USER	Busca Inválida de Pessoas	START	1692642425314
+REQUEST		busca inválida	1692642425313	1692642425321	OK	 
+USER	Busca Inválida de Pessoas	END	1692642425322
+REQUEST		busca válida	1692642420313	1692642425329	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642425330
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425331
+REQUEST		criação	1692642420313	1692642425332	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425338
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425390
+USER	Busca Válida de Pessoas	START	1692642425407
+REQUEST		criação	1692642420425	1692642425449	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425450
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425475
+USER	Busca Inválida de Pessoas	START	1692642425481
+REQUEST		busca inválida	1692642425480	1692642425484	OK	 
+USER	Busca Inválida de Pessoas	END	1692642425484
+REQUEST		busca válida	1692642420480	1692642425499	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642425499
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425508
+USER	Busca Válida de Pessoas	START	1692642425550
+REQUEST		criação	1692642420535	1692642425550	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425567
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425576
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425626
+USER	Busca Inválida de Pessoas	START	1692642425647
+REQUEST		busca inválida	1692642425646	1692642425653	OK	 
+USER	Busca Inválida de Pessoas	END	1692642425653
+REQUEST		busca válida	1692642420647	1692642425669	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642425670
+REQUEST		criação	1692642420647	1692642425671	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425680
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425684
+USER	Busca Válida de Pessoas	START	1692642425693
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425743
+REQUEST		criação	1692642420757	1692642425781	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425803
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425803
+USER	Busca Inválida de Pessoas	START	1692642425814
+REQUEST		busca inválida	1692642425813	1692642425822	OK	 
+USER	Busca Inválida de Pessoas	END	1692642425822
+REQUEST		busca válida	1692642420813	1692642425829	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642425830
+USER	Busca Válida de Pessoas	START	1692642425837
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425861
+REQUEST		criação	1692642420869	1692642425889	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642425902
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425921
+USER	Criação E Talvez Consulta de Pessoas	START	1692642425980
+USER	Busca Válida de Pessoas	START	1692642425980
+USER	Busca Inválida de Pessoas	START	1692642425981
+REQUEST		busca inválida	1692642425980	1692642425985	OK	 
+USER	Busca Inválida de Pessoas	END	1692642425986
+REQUEST		busca válida	1692642420981	1692642425999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642426000
+REQUEST		criação	1692642420981	1692642426001	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426008
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426035
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426091
+REQUEST		criação	1692642421080	1692642426101	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642426104
+USER	Busca Inválida de Pessoas	START	1692642426122
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426126
+REQUEST		busca inválida	1692642426122	1692642426129	OK	 
+USER	Busca Inválida de Pessoas	END	1692642426130
+REQUEST		busca válida	1692642421122	1692642426138	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642426139
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426146
+REQUEST		criação	1692642421181	1692642426201	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426202
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426227
+USER	Busca Válida de Pessoas	START	1692642426229
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426257
+USER	Busca Inválida de Pessoas	START	1692642426265
+REQUEST		busca inválida	1692642426265	1692642426272	OK	 
+USER	Busca Inválida de Pessoas	END	1692642426273
+REQUEST		busca válida	1692642421265	1692642426288	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642426289
+REQUEST		criação	1692642421281	1692642426299	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426313
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426318
+USER	Busca Válida de Pessoas	START	1692642426355
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426368
+REQUEST		criação	1692642421380	1692642426401	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642426408
+REQUEST		busca inválida	1692642426408	1692642426412	OK	 
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426413
+USER	Busca Inválida de Pessoas	END	1692642426413
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426424
+REQUEST		busca válida	1692642421408	1692642426429	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642426429
+USER	Busca Válida de Pessoas	START	1692642426479
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426480
+REQUEST		criação	1692642421480	1692642426500	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426530
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426535
+USER	Busca Inválida de Pessoas	START	1692642426552
+REQUEST		busca inválida	1692642426551	1692642426559	OK	 
+USER	Busca Inválida de Pessoas	END	1692642426560
+REQUEST		busca válida	1692642421551	1692642426569	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642426569
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426591
+REQUEST		criação	1692642421581	1692642426601	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642426605
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426606
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426646
+USER	Busca Inválida de Pessoas	START	1692642426694
+REQUEST		busca inválida	1692642426694	1692642426701	OK	 
+USER	Busca Inválida de Pessoas	END	1692642426701
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426702
+REQUEST		criação	1692642421681	1692642426708	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426715
+REQUEST		busca válida	1692642421694	1692642426719	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642426719
+USER	Busca Válida de Pessoas	START	1692642426730
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426757
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426813
+USER	Busca Inválida de Pessoas	START	1692642426838
+REQUEST		criação	1692642421781	1692642426849	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642426855
+REQUEST		busca inválida	1692642426837	1692642426855	OK	 
+USER	Busca Inválida de Pessoas	END	1692642426855
+REQUEST		busca válida	1692642421838	1692642426859	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642426859
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426864
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426868
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426925
+REQUEST		criação	1692642421881	1692642426949	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642426958
+USER	Busca Válida de Pessoas	START	1692642426980
+USER	Busca Inválida de Pessoas	START	1692642426980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642426981
+REQUEST		busca inválida	1692642426980	1692642426987	OK	 
+USER	Busca Inválida de Pessoas	END	1692642426988
+REQUEST		busca válida	1692642421980	1692642427001	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642427001
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427029
+REQUEST		criação	1692642421981	1692642427030	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427052
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427079
+REQUEST		criação	1692642422063	1692642427080	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427084
+USER	Busca Válida de Pessoas	START	1692642427105
+USER	Busca Inválida de Pessoas	START	1692642427122
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427129
+REQUEST		busca inválida	1692642427122	1692642427131	OK	 
+USER	Busca Inválida de Pessoas	END	1692642427131
+REQUEST		busca válida	1692642422146	1692642427161	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642427162
+REQUEST		criação	1692642422146	1692642427169	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427174
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427179
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427229
+USER	Busca Válida de Pessoas	START	1692642427229
+REQUEST		criação	1692642422230	1692642427251	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427259
+USER	Busca Inválida de Pessoas	START	1692642427265
+REQUEST		busca inválida	1692642427265	1692642427271	OK	 
+USER	Busca Inválida de Pessoas	END	1692642427272
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427279
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427329
+REQUEST		criação	1692642422314	1692642427330	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642422313	1692642427339	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642427340
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427340
+USER	Busca Válida de Pessoas	START	1692642427354
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427379
+USER	Busca Inválida de Pessoas	START	1692642427408
+REQUEST		busca inválida	1692642427408	1692642427415	OK	 
+USER	Busca Inválida de Pessoas	END	1692642427416
+REQUEST		criação	1692642422396	1692642427419	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427426
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427429
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427479
+USER	Busca Válida de Pessoas	START	1692642427479
+REQUEST		criação	1692642422480	1692642427499	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642422480	1692642427500	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642427501
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427521
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427529
+USER	Busca Inválida de Pessoas	START	1692642427551
+REQUEST		busca inválida	1692642427551	1692642427557	OK	 
+USER	Busca Inválida de Pessoas	END	1692642427558
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427579
+REQUEST		criação	1692642422563	1692642427581	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427589
+USER	Busca Válida de Pessoas	START	1692642427604
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427629
+REQUEST		busca válida	1692642422646	1692642427661	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642427662
+REQUEST		criação	1692642422646	1692642427669	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427679
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427688
+USER	Busca Inválida de Pessoas	START	1692642427694
+REQUEST		busca inválida	1692642427694	1692642427701	OK	 
+USER	Busca Inválida de Pessoas	END	1692642427702
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427729
+USER	Busca Válida de Pessoas	START	1692642427729
+REQUEST		criação	1692642422730	1692642427749	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427773
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427779
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427829
+REQUEST		busca válida	1692642422813	1692642427829	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642427830
+REQUEST		criação	1692642422813	1692642427831	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642427837
+REQUEST		busca inválida	1692642427837	1692642427844	OK	 
+USER	Busca Inválida de Pessoas	END	1692642427844
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427850
+USER	Busca Válida de Pessoas	START	1692642427854
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427879
+REQUEST		criação	1692642422897	1692642427921	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642427923
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427930
+USER	Busca Válida de Pessoas	START	1692642427979
+USER	Criação E Talvez Consulta de Pessoas	START	1692642427980
+USER	Busca Inválida de Pessoas	START	1692642427980
+REQUEST		busca inválida	1692642427980	1692642427984	OK	 
+USER	Busca Inválida de Pessoas	END	1692642427984
+REQUEST		busca válida	1692642422981	1692642427999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642427999
+REQUEST		criação	1692642422981	1692642428001	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428007
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428026
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428074
+REQUEST		criação	1692642423056	1692642428080	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428086
+USER	Busca Válida de Pessoas	START	1692642428090
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428121
+REQUEST		busca válida	1692642423105	1692642428128	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642428129
+USER	Busca Inválida de Pessoas	START	1692642428146
+REQUEST		busca inválida	1692642428146	1692642428149	OK	 
+USER	Busca Inválida de Pessoas	END	1692642428150
+REQUEST		criação	1692642423133	1692642428151	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428160
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428169
+USER	Busca Válida de Pessoas	START	1692642428201
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428217
+REQUEST		criação	1692642423210	1692642428228	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428231
+REQUEST		busca válida	1692642423230	1692642428252	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642428252
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428264
+USER	Busca Válida de Pessoas	START	1692642428312
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428312
+USER	Busca Inválida de Pessoas	START	1692642428314
+REQUEST		criação	1692642423287	1692642428349	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642428313	1692642428358	OK	 
+USER	Busca Inválida de Pessoas	END	1692642428359
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428359
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428368
+REQUEST		busca válida	1692642423355	1692642428378	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642423364	1692642428378	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642428379
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428390
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428408
+USER	Busca Válida de Pessoas	START	1692642428423
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428455
+REQUEST		criação	1692642423442	1692642428461	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428464
+USER	Busca Inválida de Pessoas	START	1692642428480
+REQUEST		busca inválida	1692642428480	1692642428486	OK	 
+USER	Busca Inválida de Pessoas	END	1692642428487
+REQUEST		busca válida	1692642423480	1692642428500	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642428501
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428502
+USER	Busca Válida de Pessoas	START	1692642428534
+REQUEST		criação	1692642423518	1692642428538	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428550
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428567
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428599
+REQUEST		criação	1692642423595	1692642428619	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642423605	1692642428621	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642428621
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428628
+USER	Busca Válida de Pessoas	START	1692642428645
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428645
+USER	Busca Inválida de Pessoas	START	1692642428646
+REQUEST		busca inválida	1692642428646	1692642428649	OK	 
+USER	Busca Inválida de Pessoas	END	1692642428649
+REQUEST		criação	1692642423672	1692642428688	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428694
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428695
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428741
+REQUEST		busca válida	1692642423730	1692642428752	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642428753
+USER	Busca Válida de Pessoas	START	1692642428756
+REQUEST		criação	1692642423750	1692642428771	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428789
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428796
+USER	Busca Inválida de Pessoas	START	1692642428814
+REQUEST		busca inválida	1692642428813	1692642428822	OK	 
+USER	Busca Inválida de Pessoas	END	1692642428823
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428837
+REQUEST		criação	1692642423827	1692642428849	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642428867
+REQUEST		busca válida	1692642423855	1692642428869	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642428870
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428873
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428884
+REQUEST		criação	1692642423904	1692642428921	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428932
+USER	Criação E Talvez Consulta de Pessoas	END	1692642428939
+USER	Busca Válida de Pessoas	START	1692642428979
+USER	Busca Inválida de Pessoas	START	1692642428980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642428980
+REQUEST		busca inválida	1692642428980	1692642428987	OK	 
+USER	Busca Inválida de Pessoas	END	1692642428988
+REQUEST		criação	1692642423981	1692642429019	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642423980	1692642429021	KO	status.find.in([200, 209], 304), found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429021
+USER	Busca Válida de Pessoas	END	1692642429022
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429022
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429065
+REQUEST		criação	1692642424046	1692642429068	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429073
+USER	Busca Válida de Pessoas	START	1692642429104
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429109
+USER	Busca Inválida de Pessoas	START	1692642429122
+REQUEST		busca inválida	1692642429122	1692642429128	OK	 
+USER	Busca Inválida de Pessoas	END	1692642429128
+REQUEST		criação	1692642424114	1692642429138	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642424122	1692642429140	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642429141
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429152
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429152
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429196
+REQUEST		criação	1692642424180	1692642429199	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429220
+USER	Busca Válida de Pessoas	START	1692642429229
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429239
+USER	Busca Inválida de Pessoas	START	1692642429265
+REQUEST		busca inválida	1692642429265	1692642429268	OK	 
+USER	Busca Inválida de Pessoas	END	1692642429269
+REQUEST		criação	1692642424247	1692642429270	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429283
+REQUEST		busca válida	1692642424265	1692642429289	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642429290
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429292
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429326
+REQUEST		criação	1692642424314	1692642429329	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642429355
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429359
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429370
+REQUEST		criação	1692642424380	1692642429399	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429408
+USER	Busca Inválida de Pessoas	START	1692642429408
+REQUEST		busca inválida	1692642429408	1692642429411	OK	 
+USER	Busca Inválida de Pessoas	END	1692642429412
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429413
+REQUEST		busca válida	1692642424408	1692642429429	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642429430
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429457
+REQUEST		criação	1692642424446	1692642429469	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429477
+USER	Busca Válida de Pessoas	START	1692642429479
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429500
+REQUEST		criação	1692642424513	1692642429531	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429544
+USER	Busca Inválida de Pessoas	START	1692642429551
+REQUEST		busca inválida	1692642429551	1692642429558	OK	 
+USER	Busca Inválida de Pessoas	END	1692642429559
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429559
+REQUEST		busca válida	1692642424550	1692642429568	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642429569
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429587
+REQUEST		criação	1692642424580	1692642429601	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642429604
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429613
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429631
+REQUEST		criação	1692642424646	1692642429671	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429674
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429694
+USER	Busca Inválida de Pessoas	START	1692642429694
+REQUEST		busca inválida	1692642429694	1692642429697	OK	 
+USER	Busca Inválida de Pessoas	END	1692642429697
+REQUEST		busca válida	1692642424694	1692642429710	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642429711
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429718
+USER	Busca Válida de Pessoas	START	1692642429729
+REQUEST		criação	1692642424713	1692642429731	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429751
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429761
+REQUEST		criação	1692642424781	1692642429801	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429805
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429829
+USER	Busca Inválida de Pessoas	START	1692642429838
+REQUEST		busca inválida	1692642429838	1692642429841	OK	 
+USER	Busca Inválida de Pessoas	END	1692642429842
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429848
+USER	Busca Válida de Pessoas	START	1692642429855
+REQUEST		busca válida	1692642424837	1692642429858	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642429859
+REQUEST		criação	1692642424847	1692642429869	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429873
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429892
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429936
+REQUEST		criação	1692642424914	1692642429939	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642429951
+USER	Criação E Talvez Consulta de Pessoas	START	1692642429980
+USER	Busca Válida de Pessoas	START	1692642429980
+USER	Busca Inválida de Pessoas	START	1692642429981
+REQUEST		busca inválida	1692642429980	1692642429985	OK	 
+USER	Busca Inválida de Pessoas	END	1692642429985
+REQUEST		busca válida	1692642424980	1692642430000	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642430001
+REQUEST		criação	1692642424981	1692642430001	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430019
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430019
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430059
+REQUEST		criação	1692642425038	1692642430060	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430088
+USER	Busca Válida de Pessoas	START	1692642430090
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430099
+USER	Busca Inválida de Pessoas	START	1692642430122
+REQUEST		criação	1692642425097	1692642430122	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642430121	1692642430126	OK	 
+USER	Busca Inválida de Pessoas	END	1692642430127
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430134
+REQUEST		busca válida	1692642425122	1692642430139	KO	status.find.in([200, 209], 304), found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430139
+USER	Busca Válida de Pessoas	END	1692642430140
+REQUEST		criação	1692642425155	1692642430171	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430179
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430180
+USER	Busca Válida de Pessoas	START	1692642430201
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430219
+REQUEST		criação	1692642425215	1692642430241	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430251
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430259
+USER	Busca Inválida de Pessoas	START	1692642430265
+REQUEST		busca inválida	1692642430264	1692642430267	OK	 
+USER	Busca Inválida de Pessoas	END	1692642430268
+REQUEST		busca válida	1692642425265	1692642430288	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642430289
+REQUEST		criação	1692642425273	1692642430290	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430295
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430299
+USER	Busca Válida de Pessoas	START	1692642430312
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430339
+REQUEST		criação	1692642425332	1692642430360	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430367
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430379
+USER	Busca Inválida de Pessoas	START	1692642430408
+REQUEST		busca inválida	1692642430407	1692642430410	OK	 
+USER	Busca Inválida de Pessoas	END	1692642430411
+REQUEST		criação	1692642425391	1692642430410	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430419
+USER	Busca Válida de Pessoas	START	1692642430423
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430424
+REQUEST		busca válida	1692642425408	1692642430430	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642430430
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430460
+REQUEST		criação	1692642425451	1692642430468	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430498
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430499
+REQUEST		criação	1692642425509	1692642430531	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642430534
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430539
+USER	Busca Inválida de Pessoas	START	1692642430551
+REQUEST		busca inválida	1692642430550	1692642430553	OK	 
+USER	Busca Inválida de Pessoas	END	1692642430554
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430554
+REQUEST		busca válida	1692642425551	1692642430568	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642430569
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430580
+REQUEST		criação	1692642425568	1692642430588	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430607
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430620
+REQUEST		criação	1692642425627	1692642430641	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642430645
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430647
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430660
+USER	Busca Inválida de Pessoas	START	1692642430694
+REQUEST		busca inválida	1692642430694	1692642430697	OK	 
+USER	Busca Inválida de Pessoas	END	1692642430698
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430700
+REQUEST		criação	1692642425684	1692642430701	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430707
+REQUEST		busca válida	1692642425694	1692642430708	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642430709
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430740
+USER	Busca Válida de Pessoas	START	1692642430756
+REQUEST		criação	1692642425744	1692642430761	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430773
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430780
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430820
+REQUEST		criação	1692642425803	1692642430830	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642430837
+REQUEST		busca inválida	1692642430837	1692642430839	OK	 
+USER	Busca Inválida de Pessoas	END	1692642430840
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430858
+REQUEST		busca válida	1692642425837	1692642430859	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642430859
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430860
+USER	Busca Válida de Pessoas	START	1692642430867
+REQUEST		criação	1692642425862	1692642430888	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430896
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430900
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430940
+REQUEST		criação	1692642425921	1692642430951	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642430957
+USER	Busca Válida de Pessoas	START	1692642430979
+USER	Busca Inválida de Pessoas	START	1692642430980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642430980
+REQUEST		busca inválida	1692642430980	1692642430983	OK	 
+USER	Busca Inválida de Pessoas	END	1692642430983
+REQUEST		criação	1692642425980	1692642431008	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642425980	1692642431009	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642431009
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431016
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431017
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431053
+REQUEST		criação	1692642426035	1692642431059	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431078
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431090
+USER	Busca Válida de Pessoas	START	1692642431091
+REQUEST		criação	1692642426092	1692642431111	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642431121
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431124
+REQUEST		busca inválida	1692642431121	1692642431125	OK	 
+USER	Busca Inválida de Pessoas	END	1692642431125
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431127
+REQUEST		busca válida	1692642426105	1692642431131	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642431132
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431164
+REQUEST		criação	1692642426146	1692642431169	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431174
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431201
+USER	Busca Válida de Pessoas	START	1692642431202
+REQUEST		criação	1692642426203	1692642431229	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431238
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431248
+REQUEST		busca válida	1692642426230	1692642431251	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642431251
+USER	Busca Inválida de Pessoas	START	1692642431265
+REQUEST		busca inválida	1692642431264	1692642431268	OK	 
+USER	Busca Inválida de Pessoas	END	1692642431268
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431275
+REQUEST		criação	1692642426258	1692642431281	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431284
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431312
+USER	Busca Válida de Pessoas	START	1692642431313
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431349
+REQUEST		criação	1692642426314	1692642431349	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431377
+REQUEST		busca válida	1692642426355	1692642431378	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642431379
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431386
+REQUEST		criação	1692642426369	1692642431391	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431402
+USER	Busca Inválida de Pessoas	START	1692642431407
+REQUEST		busca inválida	1692642431407	1692642431410	OK	 
+USER	Busca Inválida de Pessoas	END	1692642431410
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431423
+USER	Busca Válida de Pessoas	START	1692642431424
+REQUEST		criação	1692642426425	1692642431441	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431454
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431460
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431497
+REQUEST		busca válida	1692642426480	1692642431498	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642431499
+REQUEST		criação	1692642426481	1692642431501	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431504
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431534
+USER	Busca Válida de Pessoas	START	1692642431535
+USER	Busca Inválida de Pessoas	START	1692642431550
+REQUEST		busca inválida	1692642431550	1692642431556	OK	 
+USER	Busca Inválida de Pessoas	END	1692642431556
+REQUEST		criação	1692642426536	1692642431559	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431571
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431579
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431608
+REQUEST		criação	1692642426592	1692642431621	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642426605	1692642431629	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642431629
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431636
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431645
+USER	Busca Válida de Pessoas	START	1692642431646
+REQUEST		criação	1692642426647	1692642431669	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431678
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431682
+USER	Busca Inválida de Pessoas	START	1692642431694
+REQUEST		busca inválida	1692642431694	1692642431697	OK	 
+USER	Busca Inválida de Pessoas	END	1692642431698
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431719
+REQUEST		criação	1692642426703	1692642431721	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431731
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431756
+USER	Busca Válida de Pessoas	START	1692642431757
+REQUEST		criação	1692642426758	1692642431779	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431793
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431802
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431830
+USER	Busca Inválida de Pessoas	START	1692642431837
+REQUEST		criação	1692642426814	1692642431838	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642431837	1692642431840	OK	 
+USER	Busca Inválida de Pessoas	END	1692642431840
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431842
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431867
+USER	Busca Válida de Pessoas	START	1692642431868
+REQUEST		busca válida	1692642426730	1692642431871	KO	status.find.in([200, 209], 304), found 500
+REQUEST		busca válida	1692642426855	1692642431871	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642431871
+USER	Busca Válida de Pessoas	END	1692642431871
+REQUEST		criação	1692642426868	1692642431891	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431895
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431904
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431942
+REQUEST		criação	1692642426925	1692642431948	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642431951
+USER	Busca Inválida de Pessoas	START	1692642431980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642431980
+USER	Busca Válida de Pessoas	START	1692642431980
+REQUEST		busca inválida	1692642431980	1692642431983	OK	 
+USER	Busca Inválida de Pessoas	END	1692642431984
+REQUEST		busca válida	1692642426980	1692642431998	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642426981	1692642431998	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642431999
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432013
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432014
+REQUEST		criação	1692642427030	1692642432049	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432050
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432065
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432086
+USER	Busca Válida de Pessoas	START	1692642432090
+REQUEST		criação	1692642427081	1692642432100	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432102
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432121
+USER	Busca Inválida de Pessoas	START	1692642432122
+REQUEST		busca inválida	1692642432122	1692642432125	OK	 
+USER	Busca Inválida de Pessoas	END	1692642432126
+REQUEST		busca válida	1692642427105	1692642432131	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642432131
+REQUEST		criação	1692642427130	1692642432149	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432157
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432165
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432193
+USER	Busca Válida de Pessoas	START	1692642432202
+REQUEST		criação	1692642427179	1692642432209	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432224
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432229
+REQUEST		busca válida	1692642427230	1692642432250	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642427230	1692642432250	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642432251
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432264
+USER	Busca Inválida de Pessoas	START	1692642432265
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432265
+REQUEST		busca inválida	1692642432265	1692642432268	OK	 
+USER	Busca Inválida de Pessoas	END	1692642432268
+REQUEST		criação	1692642427279	1692642432299	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432300
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432301
+USER	Busca Válida de Pessoas	START	1692642432313
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432336
+REQUEST		criação	1692642427330	1692642432349	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432351
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432371
+REQUEST		busca válida	1692642427355	1692642432381	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642432381
+REQUEST		criação	1692642427380	1692642432401	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432407
+USER	Busca Inválida de Pessoas	START	1692642432408
+REQUEST		busca inválida	1692642432408	1692642432411	OK	 
+USER	Busca Inválida de Pessoas	END	1692642432411
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432415
+USER	Busca Válida de Pessoas	START	1692642432424
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432443
+REQUEST		criação	1692642427430	1692642432448	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432473
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432479
+REQUEST		busca válida	1692642427480	1692642432501	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642427480	1692642432501	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642432501
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432503
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432514
+USER	Busca Válida de Pessoas	START	1692642432535
+REQUEST		criação	1692642427530	1692642432548	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432550
+USER	Busca Inválida de Pessoas	START	1692642432551
+REQUEST		busca inválida	1692642432551	1692642432554	OK	 
+USER	Busca Inválida de Pessoas	END	1692642432554
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432569
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432586
+REQUEST		criação	1692642427580	1692642432601	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432621
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432629
+REQUEST		busca válida	1692642427605	1692642432629	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642432629
+USER	Busca Válida de Pessoas	START	1692642432645
+REQUEST		criação	1692642427630	1692642432649	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432657
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432665
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432694
+USER	Busca Inválida de Pessoas	START	1692642432694
+REQUEST		busca inválida	1692642432694	1692642432697	OK	 
+USER	Busca Inválida de Pessoas	END	1692642432698
+REQUEST		criação	1692642427680	1692642432700	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432702
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432730
+REQUEST		criação	1692642427730	1692642432751	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642432756
+REQUEST		busca válida	1692642427730	1692642432758	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642432759
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432764
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432770
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432800
+REQUEST		criação	1692642427780	1692642432801	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432812
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432836
+USER	Busca Inválida de Pessoas	START	1692642432840
+REQUEST		busca inválida	1692642432839	1692642432843	OK	 
+USER	Busca Inválida de Pessoas	END	1692642432844
+REQUEST		criação	1692642427830	1692642432859	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642432868
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432871
+REQUEST		busca válida	1692642427855	1692642432881	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642432881
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432881
+REQUEST		criação	1692642427880	1692642432898	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432907
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432914
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432943
+REQUEST		criação	1692642427930	1692642432949	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642432951
+USER	Criação E Talvez Consulta de Pessoas	START	1692642432980
+USER	Busca Válida de Pessoas	START	1692642432980
+USER	Busca Inválida de Pessoas	START	1692642432981
+REQUEST		busca inválida	1692642432980	1692642432984	OK	 
+USER	Busca Inválida de Pessoas	END	1692642432984
+REQUEST		busca válida	1692642427980	1692642432998	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642427980	1692642432998	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642432999
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433009
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433013
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433047
+REQUEST		criação	1692642428027	1692642433051	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433059
+USER	Busca Válida de Pessoas	START	1692642433079
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433082
+REQUEST		criação	1692642428075	1692642433090	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642428090	1692642433109	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433109
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433113
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433116
+USER	Busca Inválida de Pessoas	START	1692642433121
+REQUEST		busca inválida	1692642433121	1692642433124	OK	 
+USER	Busca Inválida de Pessoas	END	1692642433124
+REQUEST		criação	1692642428122	1692642433138	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433151
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433162
+USER	Busca Válida de Pessoas	START	1692642433179
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433186
+REQUEST		criação	1692642428170	1692642433190	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433196
+REQUEST		busca válida	1692642428202	1692642433220	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433220
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433220
+REQUEST		criação	1692642428218	1692642433238	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433254
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433260
+USER	Busca Inválida de Pessoas	START	1692642433265
+REQUEST		busca inválida	1692642433264	1692642433266	OK	 
+USER	Busca Inválida de Pessoas	END	1692642433267
+USER	Busca Válida de Pessoas	START	1692642433279
+REQUEST		criação	1692642428265	1692642433289	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433289
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433308
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433323
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433358
+REQUEST		busca válida	1692642428313	1692642433371	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642428313	1692642433371	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642433371
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433376
+REQUEST		criação	1692642428360	1692642433378	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642433379
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433393
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433407
+USER	Busca Inválida de Pessoas	START	1692642433408
+REQUEST		busca inválida	1692642433407	1692642433410	OK	 
+USER	Busca Inválida de Pessoas	END	1692642433411
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433428
+REQUEST		criação	1692642428408	1692642433431	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642428423	1692642433441	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433442
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433442
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433461
+USER	Busca Válida de Pessoas	START	1692642433479
+REQUEST		criação	1692642428456	1692642433481	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433497
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433510
+REQUEST		criação	1692642428503	1692642433519	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433531
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433548
+USER	Busca Inválida de Pessoas	START	1692642433551
+REQUEST		busca inválida	1692642433551	1692642433554	OK	 
+USER	Busca Inválida de Pessoas	END	1692642433554
+REQUEST		busca válida	1692642428535	1692642433558	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433559
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433565
+REQUEST		criação	1692642428551	1692642433570	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642433579
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433585
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433599
+REQUEST		criação	1692642428599	1692642433621	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433635
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433649
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433669
+REQUEST		busca válida	1692642428646	1692642433669	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433670
+REQUEST		criação	1692642428646	1692642433670	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642433679
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433692
+USER	Busca Inválida de Pessoas	START	1692642433694
+REQUEST		busca inválida	1692642433694	1692642433699	OK	 
+USER	Busca Inválida de Pessoas	END	1692642433700
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433704
+REQUEST		criação	1692642428694	1692642433720	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433738
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433744
+REQUEST		criação	1692642428741	1692642433761	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433773
+REQUEST		busca válida	1692642428757	1692642433778	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433779
+USER	Busca Válida de Pessoas	START	1692642433779
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433783
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433807
+REQUEST		criação	1692642428790	1692642433809	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433820
+USER	Busca Inválida de Pessoas	START	1692642433837
+REQUEST		busca inválida	1692642433837	1692642433840	OK	 
+USER	Busca Inválida de Pessoas	END	1692642433840
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433842
+REQUEST		criação	1692642428837	1692642433861	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433871
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433876
+USER	Busca Válida de Pessoas	START	1692642433879
+REQUEST		busca válida	1692642428868	1692642433890	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433891
+REQUEST		criação	1692642428884	1692642433901	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433903
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433911
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433945
+REQUEST		criação	1692642428933	1692642433950	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642433972
+USER	Busca Válida de Pessoas	START	1692642433979
+USER	Criação E Talvez Consulta de Pessoas	START	1692642433980
+USER	Busca Inválida de Pessoas	START	1692642433980
+REQUEST		busca inválida	1692642433980	1692642433983	OK	 
+USER	Busca Inválida de Pessoas	END	1692642433984
+REQUEST		busca válida	1692642428980	1692642433999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642433999
+REQUEST		criação	1692642428981	1692642434009	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434010
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434030
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434041
+REQUEST		criação	1692642429022	1692642434041	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434070
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434072
+USER	Busca Válida de Pessoas	START	1692642434079
+REQUEST		criação	1692642429065	1692642434089	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434099
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434104
+USER	Busca Inválida de Pessoas	START	1692642434121
+REQUEST		busca inválida	1692642434121	1692642434124	OK	 
+USER	Busca Inválida de Pessoas	END	1692642434125
+REQUEST		busca válida	1692642429105	1692642434128	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642434128
+REQUEST		criação	1692642429109	1692642434131	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434135
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434137
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434167
+REQUEST		criação	1692642429152	1692642434178	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642434179
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434198
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434204
+REQUEST		criação	1692642429196	1692642434221	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434230
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434231
+REQUEST		busca válida	1692642429230	1692642434251	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642434251
+REQUEST		criação	1692642429240	1692642434258	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434261
+USER	Busca Inválida de Pessoas	START	1692642434265
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434266
+REQUEST		busca inválida	1692642434264	1692642434267	OK	 
+USER	Busca Inválida de Pessoas	END	1692642434267
+USER	Busca Válida de Pessoas	START	1692642434279
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434292
+REQUEST		criação	1692642429284	1692642434299	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434306
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434323
+REQUEST		criação	1692642429327	1692642434351	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434354
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434366
+REQUEST		busca válida	1692642429355	1692642434370	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642434370
+USER	Busca Válida de Pessoas	START	1692642434379
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434386
+REQUEST		criação	1692642429371	1692642434392	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642434408
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434410
+REQUEST		busca inválida	1692642434407	1692642434411	OK	 
+USER	Busca Inválida de Pessoas	END	1692642434412
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434417
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434448
+REQUEST		criação	1692642429413	1692642434450	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434470
+USER	Busca Válida de Pessoas	START	1692642434479
+REQUEST		criação	1692642429458	1692642434479	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434480
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434489
+REQUEST		busca válida	1692642429480	1692642434498	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642434498
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434511
+REQUEST		criação	1692642429501	1692642434520	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434528
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434542
+USER	Busca Inválida de Pessoas	START	1692642434550
+REQUEST		busca inválida	1692642434550	1692642434553	OK	 
+USER	Busca Inválida de Pessoas	END	1692642434553
+REQUEST		criação	1692642429545	1692642434571	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434572
+USER	Busca Válida de Pessoas	START	1692642434579
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434593
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434605
+REQUEST		criação	1692642429588	1692642434608	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642429605	1692642434629	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642434630
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434630
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434636
+REQUEST		criação	1692642429632	1692642434651	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434657
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434667
+USER	Busca Válida de Pessoas	START	1692642434679
+REQUEST		criação	1692642429674	1692642434691	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642434694
+REQUEST		busca inválida	1692642434693	1692642434697	OK	 
+USER	Busca Inválida de Pessoas	END	1692642434697
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434697
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434713
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434730
+REQUEST		criação	1692642429718	1692642434738	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642429730	1692642434749	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642434749
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434754
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434761
+USER	Busca Válida de Pessoas	START	1692642434779
+REQUEST		criação	1692642429762	1692642434781	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434792
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434800
+REQUEST		criação	1692642429806	1692642434821	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434823
+USER	Busca Inválida de Pessoas	START	1692642434837
+REQUEST		busca inválida	1692642434837	1692642434840	OK	 
+USER	Busca Inválida de Pessoas	END	1692642434840
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434848
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434855
+REQUEST		criação	1692642429849	1692642434868	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642429855	1692642434878	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642434879
+USER	Busca Válida de Pessoas	START	1692642434879
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434886
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434891
+REQUEST		criação	1692642429893	1692642434910	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434917
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434936
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434948
+REQUEST		criação	1692642429936	1692642434960	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642434968
+USER	Busca Válida de Pessoas	START	1692642434979
+USER	Busca Inválida de Pessoas	START	1692642434979
+USER	Criação E Talvez Consulta de Pessoas	START	1692642434980
+REQUEST		busca inválida	1692642434979	1692642434982	OK	 
+USER	Busca Inválida de Pessoas	END	1692642434982
+REQUEST		criação	1692642429980	1692642434999	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642429980	1692642435000	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435001
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435008
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435009
+REQUEST		criação	1692642430020	1692642435038	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435039
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435041
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435069
+USER	Busca Válida de Pessoas	START	1692642435079
+REQUEST		criação	1692642430060	1692642435088	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435100
+USER	Busca Inválida de Pessoas	START	1692642435104
+REQUEST		busca inválida	1692642435104	1692642435106	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435107
+REQUEST		busca válida	1692642430090	1692642435111	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435111
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435116
+REQUEST		criação	1692642430100	1692642435120	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435127
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435130
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435160
+REQUEST		criação	1692642430140	1692642435160	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642435179
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435188
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435191
+REQUEST		criação	1692642430180	1692642435200	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435208
+REQUEST		busca válida	1692642430201	1692642435219	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435219
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435221
+USER	Busca Inválida de Pessoas	START	1692642435229
+REQUEST		busca inválida	1692642435229	1692642435231	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435232
+REQUEST		criação	1692642430220	1692642435238	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435252
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435259
+USER	Busca Válida de Pessoas	START	1692642435279
+REQUEST		criação	1692642430260	1692642435280	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435283
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435303
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435313
+REQUEST		criação	1692642430300	1692642435318	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642430313	1692642435330	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435331
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435342
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435346
+USER	Busca Inválida de Pessoas	START	1692642435355
+REQUEST		busca inválida	1692642435354	1692642435358	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435358
+REQUEST		criação	1692642430340	1692642435360	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435372
+USER	Busca Válida de Pessoas	START	1692642435379
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435382
+REQUEST		criação	1692642430380	1692642435399	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435403
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435414
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435434
+REQUEST		busca válida	1692642430424	1692642435438	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435439
+REQUEST		criação	1692642430420	1692642435440	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435464
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435469
+USER	Busca Válida de Pessoas	START	1692642435479
+USER	Busca Inválida de Pessoas	START	1692642435479
+REQUEST		criação	1692642430460	1692642435480	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642435479	1692642435483	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435483
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435495
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435508
+REQUEST		criação	1692642430500	1692642435521	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435524
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435535
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435555
+REQUEST		busca válida	1692642430535	1692642435558	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435559
+REQUEST		criação	1692642430540	1692642435559	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435578
+USER	Busca Válida de Pessoas	START	1692642435579
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435586
+REQUEST		criação	1692642430580	1692642435601	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642435604
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435607
+REQUEST		busca inválida	1692642435604	1692642435607	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435607
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435615
+REQUEST		criação	1692642430621	1692642435640	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435646
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435658
+REQUEST		busca válida	1692642430645	1692642435668	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435669
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435676
+USER	Busca Válida de Pessoas	START	1692642435679
+REQUEST		criação	1692642430660	1692642435679	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435699
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435707
+REQUEST		criação	1692642430700	1692642435720	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642435729
+REQUEST		busca inválida	1692642435729	1692642435731	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435732
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435737
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435745
+REQUEST		criação	1692642430741	1692642435760	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435767
+REQUEST		busca válida	1692642430756	1692642435778	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435778
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435779
+USER	Busca Válida de Pessoas	START	1692642435779
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435798
+REQUEST		criação	1692642430780	1692642435798	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435819
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435828
+REQUEST		criação	1692642430820	1692642435841	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642435855
+REQUEST		busca inválida	1692642435854	1692642435857	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435858
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435858
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435862
+USER	Busca Válida de Pessoas	START	1692642435879
+REQUEST		criação	1692642430860	1692642435879	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435889
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435890
+REQUEST		busca válida	1692642430867	1692642435890	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435890
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435919
+REQUEST		criação	1692642430900	1692642435921	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435949
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435950
+REQUEST		criação	1692642430940	1692642435959	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642435962
+USER	Busca Válida de Pessoas	START	1692642435979
+USER	Busca Inválida de Pessoas	START	1692642435980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642435980
+REQUEST		busca inválida	1692642435979	1692642435983	OK	 
+USER	Busca Inválida de Pessoas	END	1692642435983
+REQUEST		busca válida	1692642430979	1692642435999	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642435999
+REQUEST		criação	1692642430981	1692642436001	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436008
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436027
+REQUEST		criação	1692642431016	1692642436030	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436037
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436047
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436068
+REQUEST		criação	1692642431054	1692642436069	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436078
+USER	Busca Válida de Pessoas	START	1692642436079
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436097
+REQUEST		busca válida	1692642431091	1692642436108	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642431091	1692642436108	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642436109
+USER	Busca Inválida de Pessoas	START	1692642436122
+REQUEST		busca inválida	1692642436121	1692642436124	OK	 
+USER	Busca Inválida de Pessoas	END	1692642436124
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436127
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436128
+REQUEST		criação	1692642431128	1692642436151	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436156
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436178
+USER	Busca Válida de Pessoas	START	1692642436179
+REQUEST		criação	1692642431165	1692642436180	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436185
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436191
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436215
+REQUEST		busca válida	1692642431202	1692642436219	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642431202	1692642436219	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642436219
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436220
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436244
+REQUEST		criação	1692642431239	1692642436258	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642436264
+REQUEST		busca inválida	1692642436264	1692642436267	OK	 
+USER	Busca Inválida de Pessoas	END	1692642436267
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436271
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436274
+USER	Busca Válida de Pessoas	START	1692642436279
+REQUEST		criação	1692642431276	1692642436298	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436303
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436317
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436332
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436362
+REQUEST		busca válida	1692642431313	1692642436369	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642431350	1692642436369	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		criação	1692642431313	1692642436369	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642436369
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436377
+USER	Busca Válida de Pessoas	START	1692642436379
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436391
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436396
+REQUEST		criação	1692642431387	1692642436400	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642436408
+REQUEST		busca inválida	1692642436407	1692642436410	OK	 
+USER	Busca Inválida de Pessoas	END	1692642436410
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436418
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436421
+REQUEST		criação	1692642431424	1692642436438	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642431424	1692642436438	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642436439
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436444
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436450
+USER	Busca Válida de Pessoas	START	1692642436479
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436480
+REQUEST		criação	1692642431461	1692642436481	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436488
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436509
+REQUEST		criação	1692642431498	1692642436521	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436538
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436547
+USER	Busca Inválida de Pessoas	START	1692642436551
+REQUEST		busca inválida	1692642436550	1692642436553	OK	 
+USER	Busca Inválida de Pessoas	END	1692642436553
+REQUEST		busca válida	1692642431535	1692642436559	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642431535	1692642436559	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642436559
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436568
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436570
+USER	Busca Válida de Pessoas	START	1692642436579
+REQUEST		criação	1692642431572	1692642436590	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436597
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436615
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436627
+REQUEST		criação	1692642431609	1692642436631	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436644
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436656
+REQUEST		busca válida	1692642431646	1692642436661	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642431646	1692642436661	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642436661
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436672
+USER	Busca Válida de Pessoas	START	1692642436679
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436685
+USER	Busca Inválida de Pessoas	START	1692642436694
+REQUEST		busca inválida	1692642436693	1692642436696	OK	 
+USER	Busca Inválida de Pessoas	END	1692642436696
+REQUEST		criação	1692642431683	1692642436698	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436715
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436717
+REQUEST		criação	1692642431720	1692642436740	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436744
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436754
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436774
+REQUEST		criação	1692642431757	1692642436778	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642436779
+REQUEST		busca válida	1692642431757	1692642436781	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642436781
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436784
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436803
+REQUEST		criação	1692642431794	1692642436808	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436810
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436832
+USER	Busca Inválida de Pessoas	START	1692642436837
+REQUEST		busca inválida	1692642436837	1692642436839	OK	 
+USER	Busca Inválida de Pessoas	END	1692642436839
+REQUEST		criação	1692642431831	1692642436850	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436862
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436866
+USER	Busca Válida de Pessoas	START	1692642436879
+REQUEST		criação	1692642431868	1692642436888	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642431868	1692642436890	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642436890
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436891
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436901
+REQUEST		criação	1692642431905	1692642436920	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436921
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436936
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436950
+REQUEST		criação	1692642431942	1692642436959	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642436977
+USER	Busca Válida de Pessoas	START	1692642436979
+USER	Busca Inválida de Pessoas	START	1692642436980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642436980
+REQUEST		busca inválida	1692642436980	1692642436999	OK	 
+USER	Busca Inválida de Pessoas	END	1692642436999
+REQUEST		busca válida	1692642431980	1692642437001	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642437002
+REQUEST		criação	1692642431980	1692642437001	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437006
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437019
+REQUEST		criação	1692642432014	1692642437029	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437035
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437038
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437063
+USER	Busca Válida de Pessoas	START	1692642437069
+REQUEST		criação	1692642432050	1692642437071	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437075
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437091
+USER	Busca Inválida de Pessoas	START	1692642437105
+REQUEST		busca inválida	1692642437104	1692642437108	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437108
+REQUEST		busca válida	1692642432091	1692642437109	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642432087	1692642437109	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642437109
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437117
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437121
+REQUEST		criação	1692642432122	1692642437140	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437146
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437147
+USER	Busca Válida de Pessoas	START	1692642437160
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437174
+REQUEST		criação	1692642432157	1692642437179	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437201
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437202
+REQUEST		criação	1692642432194	1692642437211	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642432202	1692642437220	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642437221
+USER	Busca Inválida de Pessoas	START	1692642437230
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437230
+REQUEST		busca inválida	1692642437229	1692642437232	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437232
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437238
+REQUEST		criação	1692642432230	1692642437249	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642437251
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437257
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437272
+REQUEST		criação	1692642432265	1692642437280	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437281
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437285
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437313
+REQUEST		criação	1692642432301	1692642437318	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642432313	1692642437330	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642437331
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437341
+USER	Busca Válida de Pessoas	START	1692642437342
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437348
+USER	Busca Inválida de Pessoas	START	1692642437355
+REQUEST		busca inválida	1692642437354	1692642437357	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437358
+REQUEST		criação	1692642432337	1692642437360	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437367
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437382
+REQUEST		criação	1692642432372	1692642437388	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437396
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437410
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437424
+REQUEST		criação	1692642432408	1692642437428	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437430
+USER	Busca Válida de Pessoas	START	1692642437433
+REQUEST		busca válida	1692642432424	1692642437440	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642437440
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437452
+REQUEST		criação	1692642432444	1692642437460	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437466
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437480
+USER	Busca Inválida de Pessoas	START	1692642437480
+REQUEST		busca inválida	1692642437479	1692642437482	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437482
+REQUEST		criação	1692642432480	1692642437498	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437506
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437510
+USER	Busca Válida de Pessoas	START	1692642437524
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437535
+REQUEST		criação	1692642432515	1692642437538	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437540
+REQUEST		busca válida	1692642432535	1692642437550	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642437551
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437563
+REQUEST		criação	1692642432550	1692642437570	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437591
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437592
+USER	Busca Inválida de Pessoas	START	1692642437605
+REQUEST		busca inválida	1692642437604	1692642437607	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437608
+REQUEST		criação	1692642432586	1692642437608	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642437615
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437618
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437629
+REQUEST		criação	1692642432622	1692642437639	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437646
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437658
+REQUEST		busca válida	1692642432646	1692642437670	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642437671
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437674
+REQUEST		criação	1692642432658	1692642437680	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437694
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437702
+USER	Busca Válida de Pessoas	START	1692642437706
+REQUEST		criação	1692642432694	1692642437710	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Inválida de Pessoas	START	1692642437729
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437730
+REQUEST		busca inválida	1692642437729	1692642437732	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437733
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437734
+REQUEST		criação	1692642432730	1692642437748	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437755
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437757
+REQUEST		busca válida	1692642432757	1692642437778	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642432765	1692642437778	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642437779
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437785
+USER	Busca Válida de Pessoas	START	1692642437797
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437801
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437813
+REQUEST		criação	1692642432801	1692642437830	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437841
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437849
+USER	Busca Inválida de Pessoas	START	1692642437855
+REQUEST		busca inválida	1692642437855	1692642437857	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437857
+REQUEST		criação	1692642432837	1692642437861	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437868
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437883
+USER	Busca Válida de Pessoas	START	1692642437888
+REQUEST		busca válida	1692642432868	1692642437889	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642437889
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437896
+REQUEST		criação	1692642432872	1692642437918	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437924
+REQUEST		criação	1692642432907	1692642437931	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437947
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437952
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437952
+REQUEST		criação	1692642432944	1692642437960	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642437979
+USER	Busca Inválida de Pessoas	START	1692642437980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642437980
+REQUEST		busca inválida	1692642437979	1692642437982	OK	 
+USER	Busca Inválida de Pessoas	END	1692642437983
+USER	Criação E Talvez Consulta de Pessoas	END	1692642437984
+REQUEST		busca válida	1692642432980	1692642437998	KO	status.find.in([200, 209], 304), found 500
+REQUEST		criação	1692642432981	1692642437998	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	END	1692642437999
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438005
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438015
+REQUEST		criação	1692642433014	1692642438030	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438032
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438051
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438058
+REQUEST		criação	1692642433048	1692642438070	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642438079
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438082
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438085
+REQUEST		criação	1692642433083	1692642438098	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642433079	1692642438100	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438100
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438104
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438111
+USER	Busca Inválida de Pessoas	START	1692642438122
+REQUEST		busca inválida	1692642438121	1692642438124	OK	 
+USER	Busca Inválida de Pessoas	END	1692642438124
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438137
+REQUEST		criação	1692642433117	1692642438138	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438158
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438164
+REQUEST		criação	1692642433152	1692642438171	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642438179
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438190
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438200
+REQUEST		busca válida	1692642433179	1692642438201	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438201
+REQUEST		criação	1692642433186	1692642438208	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438216
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438229
+REQUEST		criação	1692642433221	1692642438239	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438243
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438249
+USER	Busca Inválida de Pessoas	START	1692642438265
+REQUEST		busca inválida	1692642438265	1692642438267	OK	 
+USER	Busca Inválida de Pessoas	END	1692642438268
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438269
+USER	Busca Válida de Pessoas	START	1692642438279
+REQUEST		criação	1692642433255	1692642438281	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438287
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438295
+REQUEST		busca válida	1692642433280	1692642438299	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438299
+REQUEST		criação	1692642433290	1692642438311	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438314
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438322
+REQUEST		criação	1692642433324	1692642438340	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438348
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438364
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438374
+REQUEST		criação	1692642433359	1692642438379	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642438379
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438397
+REQUEST		busca válida	1692642433380	1692642438400	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438400
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438401
+USER	Busca Inválida de Pessoas	START	1692642438408
+REQUEST		criação	1692642433393	1692642438408	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642438408	1692642438410	OK	 
+USER	Busca Inválida de Pessoas	END	1692642438411
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438416
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438427
+REQUEST		criação	1692642433428	1692642438451	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438452
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438453
+REQUEST		criação	1692642433462	1692642438478	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642438479
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438480
+REQUEST		busca válida	1692642433480	1692642438498	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438499
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438501
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438506
+REQUEST		criação	1692642433497	1692642438510	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438515
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438532
+USER	Busca Inválida de Pessoas	START	1692642438551
+REQUEST		criação	1692642433531	1692642438551	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca inválida	1692642438550	1692642438554	OK	 
+USER	Busca Inválida de Pessoas	END	1692642438554
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438558
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438567
+USER	Busca Válida de Pessoas	START	1692642438579
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438585
+REQUEST		criação	1692642433566	1692642438589	KO	status.find.in(201,422,400), but actually found 500
+REQUEST		busca válida	1692642433580	1692642438599	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438599
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438607
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438611
+REQUEST		criação	1692642433600	1692642438620	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438629
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438637
+REQUEST		criação	1692642433635	1692642438650	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438664
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438670
+USER	Busca Válida de Pessoas	START	1692642438679
+REQUEST		criação	1692642433669	1692642438688	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438690
+USER	Busca Inválida de Pessoas	START	1692642438694
+REQUEST		busca válida	1692642433679	1692642438698	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438699
+REQUEST		busca inválida	1692642438693	1692642438699	OK	 
+USER	Busca Inválida de Pessoas	END	1692642438700
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438704
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438716
+REQUEST		criação	1692642433704	1692642438720	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438741
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438743
+REQUEST		criação	1692642433738	1692642438758	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438764
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438769
+USER	Busca Válida de Pessoas	START	1692642438779
+REQUEST		criação	1692642433773	1692642438789	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438795
+REQUEST		busca válida	1692642433779	1692642438800	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438800
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438818
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438822
+REQUEST		criação	1692642433807	1692642438831	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438835
+USER	Busca Inválida de Pessoas	START	1692642438837
+REQUEST		busca inválida	1692642438837	1692642438839	OK	 
+USER	Busca Inválida de Pessoas	END	1692642438840
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438848
+REQUEST		criação	1692642433842	1692642438859	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438874
+USER	Busca Válida de Pessoas	START	1692642438879
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438885
+REQUEST		criação	1692642433876	1692642438898	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438901
+REQUEST		busca válida	1692642433880	1692642438901	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438901
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438921
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438927
+REQUEST		criação	1692642433911	1692642438930	KO	status.find.in(201,422,400), but actually found 500
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438932
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438953
+REQUEST		criação	1692642433945	1692642438969	KO	status.find.in(201,422,400), but actually found 500
+USER	Busca Válida de Pessoas	START	1692642438979
+USER	Busca Inválida de Pessoas	START	1692642438980
+USER	Criação E Talvez Consulta de Pessoas	START	1692642438980
+REQUEST		busca inválida	1692642438980	1692642438983	OK	 
+USER	Busca Inválida de Pessoas	END	1692642438983
+USER	Criação E Talvez Consulta de Pessoas	END	1692642438993
+REQUEST		busca válida	1692642433980	1692642438998	KO	status.find.in([200, 209], 304), found 500
+USER	Busca Válida de Pessoas	END	1692642438998
+REQUEST		criação	1692642433980	1692642439001	KO	
