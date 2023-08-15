@@ -1,4 +1,4 @@
-package rest.akka
+package api_rest
 
 import akka.actor.typed.ActorSystem
 import akka.actor.typed.scaladsl.Behaviors
@@ -33,7 +33,5 @@ object startServer {
       Behaviors.empty
     }
     val system = ActorSystem[Nothing](rootBehavior, "HelloAkkaHttpServer")
-    //#server-bootstrapping
   }
 }
-//#main-class
