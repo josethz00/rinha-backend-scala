@@ -1,3 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS dblink;
+
 DO
 $do$
 BEGIN
@@ -11,8 +13,6 @@ END
 $do$;
 
 \c rinha
-
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
 
