@@ -5,5 +5,5 @@ create table if not exists pessoas (
     apelido varchar(32) not null,
     nome varchar(100) not null,
     nascimento date not null,
-    stack varchar(32)
+    stack jsonb
 );
