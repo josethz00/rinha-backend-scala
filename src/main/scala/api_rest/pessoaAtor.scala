@@ -1,4 +1,4 @@
-package rest.akka
+package api_rest
 
 import akka.actor.typed.ActorRef
 import akka.actor.typed.Behavior
