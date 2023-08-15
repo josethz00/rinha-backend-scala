@@ -1,11 +1,10 @@
 package api_rest
 
 import PessoaActor.ActionPerformed
-import PessoaActor.ActionPerformed
 import spray.json._
-
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
+import java.util.UUID
 
 object jsonSerializer extends DefaultJsonProtocol {
   implicit object LocalDateFormat extends JsonFormat[LocalDate] {
@@ -19,6 +18,15 @@ object jsonSerializer extends DefaultJsonProtocol {
     }
   }
 
-  implicit val pessoaJsonFormat: RootJsonFormat[Pessoa] = jsonFormat4(Pessoa.apply)
+  implicit object UuidFormat extends JsonFormat[UUID] {
+    def write(uuid: UUID): JsValue = JsString(uuid.toString)
+
+    def read(json: JsValue): UUID = json match {
+      case JsString(value) => UUID.fromString(value)
+      case _ => deserializationError("Esperado um UUID como JsString")
+    }
+  }
+
+  implicit val pessoaJsonFormat: RootJsonFormat[Pessoa] = jsonFormat5(Pessoa.apply)
   implicit val actionPerformedJsonFormat: RootJsonFormat[ActionPerformed] = jsonFormat1(ActionPerformed.apply)
 }
