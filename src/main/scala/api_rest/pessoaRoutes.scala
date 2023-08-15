@@ -1,4 +1,4 @@
-package rest.akka
+package api_rest
 
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.model.StatusCodes
@@ -10,7 +10,7 @@ import akka.actor.typed.ActorRef
 import akka.actor.typed.ActorSystem
 import akka.actor.typed.scaladsl.AskPattern._
 import akka.util.Timeout
-import rest.akka.PessoaActor.{ActionPerformed, GetUserResponse}
+import PessoaActor.{ActionPerformed, GetUserResponse}
 
 
 class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit val system: ActorSystem[_]) {
