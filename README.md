@@ -1,11 +1,28 @@
+# Oque é esse repositório
+
+### Rinha de back-end - 2023
+
+Esse repositório é uma participação da rinha de back-end 2023 Q3.
+
+#### Stack
+
+- Scala
+- Akka HTTP
+- Slick
+- PostgreSQL
+
+
+### Rotas
+
 Create Pessoa
 
-### Post 
+#### Post 
 127.0.0.1:8080/pessoas
 
-Body
 
 ```
+Body
+
 {
 "apelido":"Example",
 "nome":"Example complet",
