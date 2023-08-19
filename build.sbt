@@ -23,9 +23,10 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
       "org.scalatest"     %% "scalatest"                % "3.2.9"         % Test,
 
-      "com.typesafe.slick" %% "slick" % "3.3.3", //frm
-      "com.typesafe.slick" %% "slick-hikaricp" % "3.3.3", //jdbc pool connection
-      "org.postgresql" % "postgresql" % "42.3.4", //driver for postgres
-      "ch.qos.logback" % "logback-classic" % "1.2.3" //logback
+      "com.typesafe.slick" %% "slick" % "3.4.1",
+      "com.typesafe.slick" %% "slick-hikaricp" % "3.4.1",
+      "org.postgresql" % "postgresql" % "42.3.4",
+      "ch.qos.logback" % "logback-classic" % "1.2.3",
+      "com.github.tminglei" %% "slick-pg" % "0.21.1"
     )
   )
