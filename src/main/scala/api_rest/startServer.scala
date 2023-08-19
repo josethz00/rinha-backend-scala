@@ -12,7 +12,7 @@ object startServer {
   private def startHttpServer(routes: Route)(implicit system: ActorSystem[_]): Unit = {
     import system.executionContext
 
-    val futureBinding = Http().newServerAt("localhost", 8080).bind(routes)
+    val futureBinding = Http().newServerAt("0.0.0.0", 8080).bind(routes)
     futureBinding.onComplete {
       case Success(binding) =>
         val address = binding.localAddress
