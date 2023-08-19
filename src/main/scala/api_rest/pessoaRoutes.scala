@@ -11,6 +11,7 @@ import akka.actor.typed.ActorSystem
 import akka.actor.typed.scaladsl.AskPattern._
 import akka.util.Timeout
 import PessoaActor.{ActionPerformed, GetUserResponse}
+import scala.util.{Failure,Success}
 
 
 class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit val system: ActorSystem[_]) {
@@ -31,8 +32,11 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
       concat(
             post {
               entity(as[Pessoa]) { pessoa =>
-                onSuccess(createPessoa(pessoa)) { performed =>
-                  complete((StatusCodes.Created, performed))
+                onComplete(createPessoa(pessoa)) {
+                  case Success(performed) =>
+                    complete((StatusCodes.Created, performed))
+                  case Failure(ex) =>
+                    complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
                 }
               }
             },
