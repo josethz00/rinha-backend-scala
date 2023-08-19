@@ -3,15 +3,17 @@ package api_rest
 import akka.actor.typed.ActorRef
 import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.Behaviors
+
 import java.time.LocalDate
 import database.operations._
+
 import java.util.UUID
 
 final case class Pessoa(id:Option[UUID],
                         apelido: String,
                         nome: String,
                         nascimento: LocalDate,
-                        stack:Option[Seq[String]]
+                        stack:Option[List[String]]
                        )
 
 object PessoaActor {
