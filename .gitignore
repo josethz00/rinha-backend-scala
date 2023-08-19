@@ -2,3 +2,6 @@
 .idea
 target/
 .bsp
+.metals
+.vscode
+dockerfile
