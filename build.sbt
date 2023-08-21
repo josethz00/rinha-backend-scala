@@ -27,7 +27,7 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
       "org.scalatest"     %% "scalatest"                % "3.2.9"         % Test,
 
-       // Start with this one
+      // Start with this one
       "org.tpolecat" %% "doobie-core"      % "1.0.0-RC4",
 
       // And add any of these as needed
@@ -35,6 +35,7 @@ lazy val root = (project in file(".")).
       "org.tpolecat" %% "doobie-hikari"    % "1.0.0-RC4",          // HikariCP transactor.
       "org.tpolecat" %% "doobie-postgres"  % "1.0.0-RC4",          // Postgres driver 42.6.0 + type mappings.
       "org.tpolecat" %% "doobie-specs2"    % "1.0.0-RC4" % "test", // Specs2 support for typechecking statements.
-      "org.tpolecat" %% "doobie-scalatest" % "1.0.0-RC4" % "test"  // ScalaTest support for typechecking statements.
-    )
+      "org.tpolecat" %% "doobie-scalatest" % "1.0.0-RC4" % "test",  // ScalaTest support for typechecking statements.
+      "org.postgresql" % "postgresql" % "42.2.23",
   )
+)

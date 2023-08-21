@@ -21,9 +21,9 @@ CREATE TABLE IF NOT EXISTS pessoas (
     apelido VARCHAR(32) UNIQUE NOT NULL,
     nome VARCHAR(100) NOT NULL,
     nascimento DATE NOT NULL,
-    stack JSONB NULL
+    stack VARCHAR(32)[]
 );
 
 CREATE INDEX idx_gist_trgm_apelido ON pessoas USING GIST (apelido gist_trgm_ops);
 CREATE INDEX idx_gist_trgm_nome ON pessoas USING GIST (nome gist_trgm_ops);
-CREATE INDEX idx_gist_trgm_stack ON pessoas USING GIST ((stack::text) gist_trgm_ops);
+CREATE INDEX idx_gin_stack ON pessoas USING GIN (stack);

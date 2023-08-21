@@ -158,3 +158,71 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.08.15 11:43:04 INFO  no build target found for /home/jose/Documents/projects/Personal/rinha-backend-scala/src/main/scala/com/example/UserRegistry.scala. Using presentation compiler with project's scala-library version: 3.3.0
 2023.08.15 11:43:11 INFO  time: code lens generation in 5.92s
 2023.08.15 11:43:11 INFO  time: code lens generation in 5.97s
+2023.08.16 12:33:13 INFO  Started: Metals version 1.0.0+59-0074f74d-SNAPSHOT in folders '/home/jose/Documents/projects/Personal/rinha-backend-scala' for client Visual Studio Code 1.79.0.
+Aug 16, 2023 12:33:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.1 by Redgate
+Aug 16, 2023 12:33:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 16, 2023 12:33:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 16, 2023 12:33:14 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/jose/Documents/projects/Personal/rinha-backend-scala/.metals/metals (H2 2.1)
+Aug 16, 2023 12:33:14 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.052s)
+Aug 16, 2023 12:33:14 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 16, 2023 12:33:14 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.16 12:33:14 INFO  time: initialize in 1.2s
+2023.08.16 12:33:18 WARN  Build server is not auto-connectable.
+2023.08.16 12:33:18 WARN  no build target for: /home/jose/Documents/projects/Personal/rinha-backend-scala/src/main/scala/com/api_rest/QuickstartApp.scala
+2023.08.16 12:33:34 INFO  no build target found for /home/jose/Documents/projects/Personal/rinha-backend-scala/src/main/scala/com/api_rest/QuickstartApp.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.16 12:33:35 WARN  no build target for: /home/jose/Documents/projects/Personal/rinha-backend-scala/src/main/scala/com/api_rest/UserRegistry.scala
+Aug 16, 2023 12:33:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Aug 16, 2023 12:33:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2023.08.16 12:33:39 INFO  time: code lens generation in 3.36s
+2023.08.16 12:33:39 INFO  time: code lens generation in 3.2s
+2023.08.16 12:33:39 INFO  time: code lens generation in 3.26s
+2023.08.16 12:33:39 INFO  time: code lens generation in 2.9s
+2023.08.16 12:34:12 WARN  no build target for: /home/jose/Documents/projects/Personal/rinha-backend-scala/src/main/scala/com/api_rest/UserRegistry.scala
+2023.08.16 13:11:04 INFO  Shutting down server
+2023.08.16 13:11:04 INFO  shutting down Metals
+2023.08.16 13:11:04 INFO  Exiting server
+2023.08.16 13:11:04 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.08.17 10:21:45 INFO  Started: Metals version 1.0.0+59-0074f74d-SNAPSHOT in folders '/home/jose/Documents/projects/Personal/rinha-backend-scala' for client Visual Studio Code 1.79.0.
+Aug 17, 2023 10:21:46 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.1 by Redgate
+Aug 17, 2023 10:21:46 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 17, 2023 10:21:46 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 17, 2023 10:21:46 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/jose/Documents/projects/Personal/rinha-backend-scala/.metals/metals (H2 2.1)
+Aug 17, 2023 10:21:46 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.046s)
+Aug 17, 2023 10:21:46 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 17, 2023 10:21:46 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.17 10:21:47 INFO  time: initialize in 1.31s
+2023.08.17 10:21:52 WARN  Build server is not auto-connectable.
+2023.08.17 10:21:52 WARN  no build target for: /home/jose/Documents/projects/Personal/rinha-backend-scala/src/main/scala/com/api_rest/UserRegistry.scala
+2023.08.17 10:21:58 INFO  no build target found for /home/jose/Documents/projects/Personal/rinha-backend-scala/src/main/scala/com/api_rest/UserRegistry.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.17 10:22:03 INFO  time: code lens generation in 4.02s
+2023.08.17 10:22:54 INFO  Shutting down server
+2023.08.17 10:22:54 INFO  shutting down Metals
+2023.08.17 10:22:54 INFO  Exiting server

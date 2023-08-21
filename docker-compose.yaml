@@ -1,5 +1,49 @@
 version: "3.8"
 services:
+  api1:
+    build: .
+    working_dir: /app
+    volumes:
+      - api1_volume:/app
+    ports:
+      - "8100:3335"
+    depends_on:
+      - db
+    command: [ "sbt", "clean", "run" ]
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '1GB'
+  api2:
+    build: .
+    working_dir: /app
+    volumes:
+      - api2_volume:/app
+    ports:
+      - "8101:3335"
+    depends_on:
+      - db
+    command: [ "sbt", "clean", "run" ]
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '1GB'
+  lb:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - api1
+      - api2
+    ports:
+      - "9999:9999"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: '400MB'
   db:
     image: postgres
     restart: always
@@ -10,3 +54,19 @@ services:
       - "5563:5432"
     volumes:
       - ./build_db.sql:/docker-entrypoint-initdb.d/scripts.sql
+      - ./postgresql.conf:/etc/postgresql/postgresql.conf
+    deploy:
+      resources:
+        limits:
+          cpus: '0.3'
+          memory: '600MB'
+    command:
+      [
+        "postgres",
+        "-c",
+        "config_file=/etc/postgresql/postgresql.conf"
+      ]
+
+volumes:
+  api1_volume:
+  api2_volume:
