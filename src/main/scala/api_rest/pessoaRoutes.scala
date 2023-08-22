@@ -38,72 +38,71 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
 
   val userRoutes: Route = {
     concat(
-      pathPrefix("pessoas") {
-        concat(
-          post {
-            entity(as[Pessoa]) { pessoa =>
-              onComplete(createPessoa(pessoa)) {
-                case Success(performed) =>
-                  complete((StatusCodes.Created,performed))
-                case Failure(ex) =>
-                  complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
-              }
-            }
-          },
-          get {
-            parameter(Symbol("t").?) {
-              case Some(t) =>
-                onSuccess(getPessoasPorTermo(t)) { response =>
-                  if (response.maybePessoas.get.nonEmpty)
-                  complete(response.maybePessoas)
-                  else {
-                    complete((StatusCodes.NotFound,s"Não foram encontradas pessoas com o termo $t"))
-                  }
-                }
-              case None =>
-                complete(StatusCodes.BadRequest, "Parametro t não especificado.")
-            }
-          },
-
-          path(Segment) { uuid =>
-            concat(
-              get {
-                onComplete(getPessoa(uuid)) {
-                  case Success(response) =>
-                    response.maybePessoa match {
-                      case Some(pessoa) =>
-                        if (pessoa.stack.isEmpty) {
-                          val stack = null
-                          val pessoaToReturn = Map(
-                            "id" -> pessoa.id.get.toString,
-                            "nome" -> pessoa.nome,
-                            "apelido" -> pessoa.apelido,
-                            "nascimento" -> pessoa.nascimento.toString,
-                            "stack" -> stack
-                          )
-                          complete(Json(DefaultFormats).write(pessoaToReturn))
-                        } else {
-                          val stack = pessoa.stack
-                          val pessoaToReturn = Map(
-                            "id" -> pessoa.id.get.toString,
-                            "nome" -> pessoa.nome,
-                            "apelido" -> pessoa.apelido,
-                            "nascimento" -> pessoa.nascimento.toString,
-                            "stack" -> stack
-                          )
-                          complete(Json(DefaultFormats).write(pessoaToReturn))
-                        }
-
-                      case None =>
-                        val message = Map("Message" -> s"UUID $uuid não está associado a uma pessoa.")
-                        complete(StatusCodes.NotFound, Json(DefaultFormats).write(message))
-                    }
+        pathPrefix("pessoas") {
+          concat(
+            post {
+              entity(as[Pessoa]) { pessoa =>
+                onComplete(createPessoa(pessoa)) {
+                  case Success(performed) =>
+                    complete((StatusCodes.Created, performed))
                   case Failure(ex) =>
-                    complete(StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}")
+                    complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
                 }
-              })
-          }
-        )
+              }
+            },
+            path(Segment) { (uuid) =>
+              concat(
+                get {
+                  onComplete(getPessoa(uuid)) {
+                    case Success(response) =>
+                      response.maybePessoa match {
+                        case Some(pessoa) =>
+                          if (pessoa.stack.isEmpty) {
+                            val stack = null
+                            val pessoaToReturn = Map(
+                              "id" -> pessoa.id.get.toString,
+                              "nome" -> pessoa.nome,
+                              "apelido" -> pessoa.apelido,
+                              "nascimento" -> pessoa.nascimento.toString,
+                              "stack" -> stack
+                            )
+                            complete(Json(DefaultFormats).write(pessoaToReturn))
+                          } else {
+                            val stack = pessoa.stack
+                            val pessoaToReturn = Map(
+                              "id" -> pessoa.id.get.toString,
+                              "nome" -> pessoa.nome,
+                              "apelido" -> pessoa.apelido,
+                              "nascimento" -> pessoa.nascimento.toString,
+                              "stack" -> stack
+                            )
+                            complete(Json(DefaultFormats).write(pessoaToReturn))
+                          }
+
+                        case None =>
+                          val message = Map("Message" -> s"UUID $uuid não está associado a uma pessoa.")
+                          complete(StatusCodes.NotFound, Json(DefaultFormats).write(message))
+                      }
+                    case Failure(ex) =>
+                      complete(StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}")
+                  }
+                })
+            },
+            get {
+              parameter(Symbol("t").?) {
+                case Some(t) =>
+                  onSuccess(getPessoasPorTermo(t)) { response =>
+                    if (response.maybePessoas.get.nonEmpty)
+                      complete(response.maybePessoas)
+                    else {
+                      complete((StatusCodes.NotFound, s"Não foram encontradas pessoas com o termo $t"))
+                    }
+                  }
+                case None =>
+                  complete(StatusCodes.BadRequest, "Parametro t não especificado.")
+              }
+            },
+          )
       },
       pathPrefix("contagem-pessoas") {
         get {
