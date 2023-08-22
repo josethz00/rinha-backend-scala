@@ -1,21 +1,14 @@
 package database
 
 import api_rest.Pessoa
-
 import java.util.UUID
 import java.util.concurrent.Executors
 import scala.concurrent.{ExecutionContext, Future}
-import scala.util.{Failure,Success}
-
-object PrivateExecutionContext {
-  val executor = Executors.newFixedThreadPool(4)
-  implicit val ec: ExecutionContext = ExecutionContext.fromExecutorService(executor)
-}
-
+import slick.jdbc.PostgresProfile.api._
 object operations {
 
-  import PrivateExecutionContext._
-  import slick.jdbc.PostgresProfile.api._
+  val executor = Executors.newFixedThreadPool(4)
+  implicit val ec: ExecutionContext = ExecutionContext.fromExecutorService(executor)
 
   def insertPessoa(pessoa: Pessoa): Future[Unit] = {
 
@@ -30,7 +23,6 @@ object operations {
 
     }
   }
-
   def getPessoasByID(uuid:UUID): Future[Seq[Pessoa]]  = {
     val query = Tables.pessoaTable.filter(_.id === uuid)
     connection.db.run(query.result)
