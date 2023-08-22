@@ -18,7 +18,7 @@ object Tables {
   import MyPostgresProfile.api._
 
   class PessoaTable(tag:Tag) extends Table[Pessoa] (tag,"pessoas") {
-    def id = column[Option[UUID]]("id",O.PrimaryKey, O.AutoInc)
+    def id = column[Option[UUID]]("id",O.PrimaryKey)
     def apelido = column[String]("apelido",O.Length(32))
     def nome = column[String]("nome",O.Length(100))
     def nascimento = column[LocalDate]("nascimento")
