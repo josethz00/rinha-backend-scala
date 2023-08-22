@@ -32,10 +32,14 @@ object PessoaActor {
 
   final case class GetPessoa(uuidPessoa: String, replyTo: ActorRef[GetPessoaResponse]) extends Command
 
+  final case class GetPessoasPorTermo(termo:String, replyTo: ActorRef[GetPessoasPorTermoResponse]) extends Command
+
   final case class GetContagemPessoa(replyTo:ActorRef[GetContagemPessoaResponse]) extends Command
 
 
   final case class GetPessoaResponse(maybePessoa: Option[Pessoa])
+
+  final case class GetPessoasPorTermoResponse(maybePessoas:Option[Seq[Pessoa]])
 
   final case class GetContagemPessoaResponse(numeroDePessoas: Int)
 
@@ -71,6 +75,14 @@ object PessoaActor {
         pessoasTotal.onComplete( contagem =>
           replyTo ! GetContagemPessoaResponse(contagem.get)
         )
+        Behaviors.same
+
+      case GetPessoasPorTermo(termo, replyTo) =>
+        val maybePessoas = getPessoasPSimilaridade(termo)
+        maybePessoas match {
+          case pessoas =>
+            replyTo ! GetPessoasPorTermoResponse(Some(pessoas))
+        }
         Behaviors.same
     }
 
