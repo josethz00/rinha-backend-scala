@@ -71,9 +71,3 @@ object operations {
   pessoasResults
   }
 }
-
-object teste extends App {
-  import operations.getPessoasPSimilaridade
-
-  println(getPessoasPSimilaridade("fodasefaa"))
-}
