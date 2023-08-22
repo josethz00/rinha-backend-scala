@@ -3,7 +3,6 @@ package api_rest
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Route
-
 import scala.concurrent.Future
 import PessoaActor._
 import akka.actor.typed.ActorRef
@@ -33,6 +32,9 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
   def getContagemPessoa: Future[GetContagemPessoaResponse] =
     pessoaManageActor.ask(GetContagemPessoa)
 
+  def getPessoasPorTermo(termo:String): Future[GetPessoasPorTermoResponse] =
+    pessoaManageActor.ask(GetPessoasPorTermo(termo, _))
+
 
   val userRoutes: Route = {
     concat(
@@ -46,6 +48,16 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
                 case Failure(ex) =>
                   complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
               }
+            }
+          },
+          get {
+            parameter(Symbol("t").?) {
+              case Some(t) =>
+                onSuccess(getPessoasPorTermo(t)) { response =>
+                  complete(response.maybePessoas)
+                }
+              case None =>
+                complete(StatusCodes.BadRequest, "Parametro t não especificado.")
             }
           },
 

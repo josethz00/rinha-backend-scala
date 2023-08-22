@@ -3,10 +3,8 @@ package api_rest
 import akka.actor.typed.ActorRef
 import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.Behaviors
-
 import java.time.LocalDate
 import database.operations._
-
 import java.util.UUID
 import java.util.concurrent.Executors
 import scala.concurrent.ExecutionContext
