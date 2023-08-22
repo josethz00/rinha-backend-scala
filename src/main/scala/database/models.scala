@@ -28,5 +28,6 @@ object Tables {
   }
 
   val pessoaTable = TableQuery[PessoaTable]
+  pessoaTable.filter(_.apelido === "pedro")
 
 }
