@@ -42,11 +42,31 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
         concat(
           post {
             entity(as[Pessoa]) { pessoa =>
-              onComplete(createPessoa(pessoa)) {
-                case Success(performed) =>
-                  complete((StatusCodes.Created,performed))
-                case Failure(ex) =>
-                  complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+              validate(
+                pessoa.nome.length <= 100,
+                s"Nome deve ser menor ou igual que 100 caracteres, got ${pessoa.nome.length}"
+              ) {
+                validate(
+                  pessoa.apelido.length <= 32,
+                  s"Apelido deve ser menor ou igual que 32 caracteres, got ${pessoa.apelido.length}"
+                ) {
+                  validate(
+                    pessoa.stack.forall(_.length <= 32),
+                    "Os elementos da stack devem ser menores ou iguais a 32 caracteres"
+                  ) {
+                    validate(
+                      pessoa.stack.exists(_.getClass != "".getClass),
+                      "Os elementos da stack devem ser strings"
+                    ) {
+                      onComplete(createPessoa(pessoa)) {
+                        case Success(performed) =>
+                          complete((StatusCodes.Created, performed))
+                        case Failure(ex) =>
+                          complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+                      }
+                    }
+                  }
+                }
               }
             }
           },
