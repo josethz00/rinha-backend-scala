@@ -42,15 +42,30 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
         concat(
           post {
             entity(as[Pessoa]) { pessoa =>
-              onComplete(createPessoa(pessoa)) {
-                case Success(performed) =>
-                  complete((StatusCodes.Created, performed))
-                case Failure(ex) =>
-                  complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+              validate(
+                pessoa.nome.length <= 100,
+                s"Nome deve ser menor ou igual que 100 caracteres, got ${pessoa.nome.length}"
+              ) {
+                validate(
+                  pessoa.apelido.length <= 32,
+                  s"Apelido deve ser menor ou igual que 32 caracteres, got ${pessoa.apelido.length}"
+                ) {
+                  validate(
+                    pessoa.stack.forall(_.length <= 32),
+                    "Os elementos da stack devem ser menores ou iguais a 32 caracteres"
+                  ) {
+                      onComplete(createPessoa(pessoa)) {
+                        case Success(performed) =>
+                          complete((StatusCodes.Created, performed))
+                        case Failure(ex) =>
+                          complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+                      }
+                    }
+                }
               }
             }
           },
-          path(Segment) { (uuid) =>
+          path(Segment) { uuid =>
             concat(
               get {
                 onComplete(getPessoa(uuid)) {
@@ -87,22 +102,22 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
                     complete(StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}")
                 }
               })
-          },
-          get {
-            parameter(Symbol("t").?) {
-              case Some(t) =>
-                onSuccess(getPessoasPorTermo(t)) { response =>
-                  if (response.maybePessoas.get.nonEmpty)
-                    complete(response.maybePessoas)
-                  else {
-                    complete((StatusCodes.NotFound, s"Não foram encontradas pessoas com o termo $t"))
-                  }
-                }
-              case None =>
-                complete(StatusCodes.BadRequest, "Parametro t não especificado.")
-            }
-          },
+          }
         )
+      },
+      get {
+        parameter(Symbol("t").?) {
+          case Some(t) =>
+            onSuccess(getPessoasPorTermo(t)) { response =>
+              if (response.maybePessoas.get.nonEmpty)
+                complete(response.maybePessoas)
+              else {
+                complete((StatusCodes.NotFound, s"Não foram encontradas pessoas com o termo $t"))
+              }
+            }
+          case None =>
+            complete(StatusCodes.BadRequest, "Parametro t não especificado.")
+        }
       },
       pathPrefix("contagem-pessoas") {
         get {
