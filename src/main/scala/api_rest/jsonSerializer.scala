@@ -1,6 +1,6 @@
 package api_rest
 
-import PessoaActor.{ActionPerformed,PessoaCreated}
+import PessoaActor.CreatePessoaResponse
 import spray.json._
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -28,5 +28,5 @@ object jsonSerializer extends DefaultJsonProtocol {
   }
 
   implicit val pessoaJsonFormat: RootJsonFormat[Pessoa] = jsonFormat5(Pessoa.apply)
-  implicit val actionPerformedJsonFormat: RootJsonFormat[PessoaCreated] = jsonFormat1(PessoaCreated.apply)
+  implicit val actionPerformedJsonFormat: RootJsonFormat[CreatePessoaResponse] = jsonFormat1(CreatePessoaResponse.apply)
 }
