@@ -9,8 +9,8 @@ import database.operations._
 
 import java.util.UUID
 import java.util.concurrent.Executors
-import scala.concurrent.{ExecutionContext, Future}
-import scala.util.{Failure, Success}
+import scala.concurrent.ExecutionContext
+import scala.util.Success
 
 
 final case class Pessoa(
@@ -18,7 +18,7 @@ final case class Pessoa(
                         apelido: String,
                         nome: String,
                         nascimento: LocalDate,
-                        stack:Option[List[String]]
+                        stack:Option[List[String]] = None
                        )
 
 object PessoaActor {
@@ -28,17 +28,18 @@ object PessoaActor {
 
   sealed trait Command
 
-  final case class CreatePessoa(pessoa: Pessoa, replyTo: ActorRef[PessoaCreated]) extends Command
+  final case class CreatePessoa(pessoa: Pessoa, replyTo: ActorRef[CreatePessoaResponse]) extends Command
 
   final case class GetPessoa(uuidPessoa: String, replyTo: ActorRef[GetPessoaResponse]) extends Command
 
+  final case class GetContagemPessoa(replyTo:ActorRef[GetContagemPessoaResponse]) extends Command
 
-  final case class GetPessoaResponse(maybeUser: Option[Pessoa])
 
-  final case class PessoaCreated(id: String)
+  final case class GetPessoaResponse(maybePessoa: Option[Pessoa])
 
-  final case class ActionPerformed(description: String)
+  final case class GetContagemPessoaResponse(numeroDePessoas: Int)
 
+  final case class CreatePessoaResponse(id: String)
 
   def apply(): Behavior[Command] = registry(Set.empty)
 
@@ -49,8 +50,8 @@ object PessoaActor {
       case CreatePessoa(pessoa, replyTo) =>
         val uuid = UUID.randomUUID()
         pessoa.id = Some(uuid)
-        replyTo ! PessoaCreated(pessoa.id.get.toString)
         insertPessoa(pessoa)
+        replyTo ! CreatePessoaResponse(pessoa.id.get.toString)
         registry(pessoas + pessoa)
 
       case GetPessoa(uuidPessoa, replyTo) =>
@@ -64,5 +65,13 @@ object PessoaActor {
             }
         }
         Behaviors.same
+
+      case GetContagemPessoa(replyTo) =>
+        val pessoasTotal = getContagemPessoas
+        pessoasTotal.onComplete( contagem =>
+          replyTo ! GetContagemPessoaResponse(contagem.get)
+        )
+        Behaviors.same
     }
+
 }
