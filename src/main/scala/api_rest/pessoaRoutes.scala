@@ -10,7 +10,7 @@ import akka.actor.typed.ActorRef
 import akka.actor.typed.ActorSystem
 import akka.actor.typed.scaladsl.AskPattern._
 import akka.util.Timeout
-import PessoaActor.{GetPessoaResponse, GetPessoa, CreatePessoa}
+import PessoaActor.{CreatePessoa, GetPessoa, GetPessoaResponse}
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
 import jsonSerializer._
 import org.json4s._
@@ -26,41 +26,80 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
 
   def getPessoa(uuid: String): Future[GetPessoaResponse] =
     pessoaManageActor.ask(GetPessoa(uuid, _))
-  def createPessoa(pessoa: Pessoa): Future[PessoaCreated] =
+
+  def createPessoa(pessoa: Pessoa): Future[CreatePessoaResponse] =
     pessoaManageActor.ask(CreatePessoa(pessoa, _))
 
+  def getContagemPessoa: Future[GetContagemPessoaResponse] =
+    pessoaManageActor.ask(GetContagemPessoa)
 
-  val userRoutes: Route =
-    pathPrefix("pessoas") {
-      concat(
-            post {
-              entity(as[Pessoa]) { pessoa =>
-                onComplete(createPessoa(pessoa)) {
-                  case Success(performed) =>
-                    complete((StatusCodes.Created,performed))
-                  case Failure(ex) =>
-                    complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
-                }
-              }
-            },
 
-        path(Segment) { uuid =>
-          concat(
-            get {
-              onComplete(getPessoa(uuid)) {
-                case Success(response) =>
-                  response.maybeUser match {
-                    case Some(pessoa) =>
-                      complete(pessoa)
-                    case None =>
-                      val message = Map("Message" -> s"UUID $uuid não está associado a uma pessoa.")
-                      complete(StatusCodes.NotFound, Json(DefaultFormats).write(message))
-                  }
+  val userRoutes: Route = {
+    concat(
+      pathPrefix("pessoas") {
+        concat(
+          post {
+            entity(as[Pessoa]) { pessoa =>
+              onComplete(createPessoa(pessoa)) {
+                case Success(performed) =>
+                  complete((StatusCodes.Created,performed))
                 case Failure(ex) =>
-                  complete(StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}")
+                  complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+              }
+            }
+          },
+
+          path(Segment) { uuid =>
+            concat(
+              get {
+                onComplete(getPessoa(uuid)) {
+                  case Success(response) =>
+                    response.maybePessoa match {
+                      case Some(pessoa) =>
+                        if (pessoa.stack.isEmpty) {
+                          val stack = null
+                          val pessoaToReturn = Map(
+                            "id" -> pessoa.id.get.toString,
+                            "nome" -> pessoa.nome,
+                            "apelido" -> pessoa.apelido,
+                            "nascimento" -> pessoa.nascimento.toString,
+                            "stack" -> stack
+                          )
+                          complete(Json(DefaultFormats).write(pessoaToReturn))
+                        } else {
+                          val stack = pessoa.stack
+                          val pessoaToReturn = Map(
+                            "id" -> pessoa.id.get.toString,
+                            "nome" -> pessoa.nome,
+                            "apelido" -> pessoa.apelido,
+                            "nascimento" -> pessoa.nascimento.toString,
+                            "stack" -> stack
+                          )
+                          complete(Json(DefaultFormats).write(pessoaToReturn))
+                        }
+
+                      case None =>
+                        val message = Map("Message" -> s"UUID $uuid não está associado a uma pessoa.")
+                        complete(StatusCodes.NotFound, Json(DefaultFormats).write(message))
+                    }
+                  case Failure(ex) =>
+                    complete(StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}")
                 }
               })
-            }
-      )
-    }
+          }
+        )
+      },
+      pathPrefix("contagem-pessoas") {
+        get {
+          onComplete(getContagemPessoa) {
+            case Success(contagem) =>
+              val message = Map("Total pessoas" -> contagem.numeroDePessoas)
+              complete(Json(DefaultFormats).write(message))
+            case Failure(ex) =>
+              complete(StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}")
+          }
+        }
+      }
+    )
+  }
 }
