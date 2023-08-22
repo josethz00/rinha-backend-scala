@@ -40,51 +40,52 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
     concat(
       pathPrefix("pessoas") {
         concat(
-          post {
-            entity(as[Pessoa]) { pessoa =>
-              validate(
-                pessoa.nome.length <= 100,
-                s"Nome deve ser menor ou igual que 100 caracteres, got ${pessoa.nome.length}"
-              ) {
+          pathEnd {
+            post {
+              entity(as[Pessoa]) { pessoa =>
                 validate(
-                  pessoa.apelido.length <= 32,
-                  s"Apelido deve ser menor ou igual que 32 caracteres, got ${pessoa.apelido.length}"
+                  pessoa.nome.length <= 100,
+                  s"Nome deve ser menor ou igual que 100 caracteres, got ${pessoa.nome.length}"
                 ) {
                   validate(
-                    pessoa.stack.forall(_.length <= 32),
-                    "Os elementos da stack devem ser menores ou iguais a 32 caracteres"
+                    pessoa.apelido.length <= 32,
+                    s"Apelido deve ser menor ou igual que 32 caracteres, got ${pessoa.apelido.length}"
                   ) {
                     validate(
-                      pessoa.stack.exists(_.getClass != "".getClass),
-                      "Os elementos da stack devem ser strings"
+                      pessoa.stack.forall(_.length <= 32),
+                      "Os elementos da stack devem ser menores ou iguais a 32 caracteres"
                     ) {
-                      onComplete(createPessoa(pessoa)) {
-                        case Success(performed) =>
-                          complete((StatusCodes.Created, performed))
-                        case Failure(ex) =>
-                          complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+                      validate(
+                        pessoa.stack.exists(_.getClass != "".getClass),
+                        "Os elementos da stack devem ser strings"
+                      ) {
+                        onComplete(createPessoa(pessoa)) {
+                          case Success(performed) =>
+                            complete((StatusCodes.Created, performed))
+                          case Failure(ex) =>
+                            complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+                        }
                       }
                     }
                   }
                 }
               }
             }
-          },
-          get {
-            parameter(Symbol("t").?) {
-              case Some(t) =>
-                onSuccess(getPessoasPorTermo(t)) { response =>
-                  if (response.maybePessoas.get.nonEmpty)
-                  complete(response.maybePessoas)
-                  else {
-                    complete((StatusCodes.NotFound,s"Não foram encontradas pessoas com o termo $t"))
+            get {
+              parameter(Symbol("t").?) {
+                case Some(t) =>
+                  onSuccess(getPessoasPorTermo(t)) { response =>
+                    if (response.maybePessoas.get.nonEmpty)
+                      complete(response.maybePessoas)
+                    else {
+                      complete((StatusCodes.NotFound, s"Não foram encontradas pessoas com o termo $t"))
+                    }
                   }
-                }
-              case None =>
-                complete(StatusCodes.BadRequest, "Parametro t não especificado.")
+                case None =>
+                  complete(StatusCodes.BadRequest, "Parametro t não especificado.")
+              }
             }
           },
-
           path(Segment) { uuid =>
             concat(
               get {
