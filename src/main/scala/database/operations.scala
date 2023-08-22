@@ -28,4 +28,9 @@ object operations {
     connection.db.run(query.result)
   }
 
+  def getContagemPessoas: Future[Int] = {
+    val query = Tables.pessoaTable.map(_.id).length
+    connection.db.run(query.result)
+  }
+
 }
