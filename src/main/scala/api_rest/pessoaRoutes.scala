@@ -109,11 +109,7 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
         parameter(Symbol("t").?) {
           case Some(t) =>
             onSuccess(getPessoasPorTermo(t)) { response =>
-              if (response.maybePessoas.get.nonEmpty)
-                complete(response.maybePessoas)
-              else {
-                complete((StatusCodes.NotFound, s"Não foram encontradas pessoas com o termo $t"))
-              }
+              complete(response.maybePessoas)
             }
           case None =>
             complete(StatusCodes.BadRequest, "Parametro t não especificado.")
