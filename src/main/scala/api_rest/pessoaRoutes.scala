@@ -23,6 +23,10 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
 
   private implicit val timeout: Timeout = Timeout.create(system.settings.config.getDuration("my-app.routes.ask-timeout"))
 
+  def allElementsSameType[T](list: List[T]): Boolean = {
+    list.forall(elem => elem.getClass == list.head.getClass)
+  }
+
   def getPessoa(uuid: String): Future[GetPessoaResponse] =
     pessoaManageActor.ask(GetPessoa(uuid, _))
 
@@ -42,18 +46,20 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
         concat(
           post {
             entity(as[Pessoa]) { pessoa =>
-              validate(
-                pessoa.nome.length <= 100,
-                s"Nome deve ser menor ou igual que 100 caracteres, got ${pessoa.nome.length}"
-              ) {
-                validate(
-                  pessoa.apelido.length <= 32,
-                  s"Apelido deve ser menor ou igual que 32 caracteres, got ${pessoa.apelido.length}"
-                ) {
-                  validate(
-                    pessoa.stack.forall(_.length <= 32),
-                    "Os elementos da stack devem ser menores ou iguais a 32 caracteres"
-                  ) {
+               if ((pessoa.nome.length < 100) & (pessoa.apelido.length < 40)) {
+                    if (pessoa.stack.get.nonEmpty) {
+                      if (pessoa.stack.forall(elem => elem.isInstanceOf[String])) {
+                        onComplete(createPessoa(pessoa)) {
+                          case Success(performed) =>
+                            complete((StatusCodes.Created, performed))
+                          case Failure(ex) =>
+                            complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+                        }
+                      }
+                      else {
+                        complete(StatusCodes.UnprocessableContent, "Todos os elementos de stack tem que ser do tipo string")
+                      }
+                    } else {
                       onComplete(createPessoa(pessoa)) {
                         case Success(performed) =>
                           complete((StatusCodes.Created, performed))
@@ -61,8 +67,10 @@ class pessoaRoutes(pessoaManageActor: ActorRef[PessoaActor.Command])(implicit va
                           complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
                       }
                     }
-                }
-              }
+                  }
+               else {
+                 complete(StatusCodes.UnprocessableContent,"Valor dos campos esta invalido.")
+               }
             }
           },
           path(Segment) { uuid =>
