@@ -1,18 +1,9 @@
 create extension if not exists "pg_trgm";
 
 
-CREATE OR REPLACE FUNCTION array_to_text(arr anyarray)
-    RETURNS text
-    IMMUTABLE
-    LANGUAGE SQL
-AS $$
-SELECT array_to_string(arr, '-');
-$$;
-
-
 create table if not exists pessoas (
                                        id uuid NOT NULL,
-                                       apelido varchar(32) not null,
+                                       apelido varchar(32) not null unique,
                                        nome varchar(100) not null,
                                        nascimento date not null,
                                        stack varchar(32)[],
@@ -30,7 +21,7 @@ SELECT
                 LOWER(nome) || '-' || LOWER(apelido) ||
                 CASE
                     WHEN stack IS NULL THEN ''
-                    ELSE '-' || array_to_text(stack, '-')
+                    ELSE '-' || array_to_string(stack, '-')
                     END
 $$;
 
